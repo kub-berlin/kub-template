@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="2.5" type="template">
-	<name>KuB</name>
-	<creationDate>2015-07-24</creationDate>
-	<author>KuB Berlin IT team</author>
-	<authorEmail>kubit@kub.de</authorEmail>
-	<authorUrl>http://kub-berlin.de</authorUrl>
-	<copyright>KuB 2015</copyright>
-	<license>GNU/AGPL</license>
-	<version>0.0.0</version>
-	<description>Joomla Template for the KuB Homepage</description>
-	<files>
-		<filename>index.php</filename>
-		<filename>templateDetails.xml</filename>
-		<folder>images</folder>
-		<folder>css</folder>
-	</files>
-	<positions>
-		<position>header</position>
-		<position>navigation</position>
-		<position>aside</position>
-		<position>footer</position>
-	</positions>
+    <name>KuB</name>
+    <creationDate>2015-07-24</creationDate>
+    <author>KuB Berlin IT team</author>
+    <authorEmail>kubit@kub.de</authorEmail>
+    <authorUrl>http://kub-berlin.de</authorUrl>
+    <copyright>KuB 2015</copyright>
+    <license>GNU/AGPL</license>
+    <version>0.0.0</version>
+    <description>Joomla Template for the KuB Homepage</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>images</folder>
+        <folder>css</folder>
+    </files>
+    <positions>
+        <position>header</position>
+        <position>navigation</position>
+        <position>aside</position>
+        <position>footer</position>
+    </positions>
 </extension>
