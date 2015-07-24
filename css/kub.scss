@@ -1,6 +1,8 @@
+@import "variables";
+
 html {
-    background: #991515;
-    color: white;
+    background: $color-brand;
+    color: $color-bg;
     margin: 1em 0;
     padding: 0;
 }
@@ -12,12 +14,12 @@ body {
     margin: 0 auto;
 }
 main {
-    background: white;
-    color: #333;
+    background: $color-bg;
+    color: $color-fg;
     padding: 0.5em;
 }
 main a {
-    color: #991515;
+    color: $color-brand;
 }
 
 .brand-link {
