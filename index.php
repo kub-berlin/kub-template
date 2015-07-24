@@ -1,4 +1,4 @@
-<?php include('head.php') ?>
+<?php include('partials/head.php') ?>
     <title><?php echo $sitename ?> — <?php echo $this->title; ?></title>
 </head>
 <body>
@@ -16,4 +16,4 @@
     <aside>
         <jdoc:include type="modules" name="aside" />
     </aside>
-<?php include('foot.php') ?>
+<?php include('partials/foot.php') ?>
