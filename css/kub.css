@@ -1,0 +1,26 @@
+html {
+	background: #991515;
+	color: white;
+	margin: 1em 0;
+	padding: 0;
+}
+a {
+	color: inherit;
+}
+body {
+	max-width: 40em;
+	margin: 0 auto;
+}
+main {
+	background: white;
+	color: #333;
+	padding: 0.5em;
+}
+main a {
+	color: #991515;
+}
+
+.brand-link {
+	font-size: 300%;
+	text-decoration: none;
+}
