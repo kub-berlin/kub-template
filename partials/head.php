@@ -12,9 +12,9 @@ $this->_script = Array();
 $this->_scripts = Array();
 
 $this->setTitle("$sitename - {$this->getTitle()}");
-$this->_metaTags['standard']['viewport'] = 'width=device-width, initial-scale=1.0';
-$this->_metaTags['http-equiv']['X-UA-Compatible'] = 'IE=edge,chrome=1';
-$this->_styleSheets["$templatePath/css/kub.css"] = null;
+$this->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
+$this->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
+$this->addStyleSheet("$templatePath/css/kub.css");
 
 ?>
 <!DOCTYPE html>

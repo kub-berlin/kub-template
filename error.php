@@ -25,9 +25,9 @@ $doc->_script = Array();
 $doc->_scripts = Array();
 
 $doc->setTitle($this->error->getCode() . ' - ' . $this->error->getMessage());
-$doc->_metaTags['standard']['viewport'] = 'width=device-width, initial-scale=1.0';
-$doc->_metaTags['http-equiv']['X-UA-Compatible'] = 'IE=edge,chrome=1';
-$doc->_styleSheets["$templatePath/css/kub.css"] = null;
+$doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
+$doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
+$doc->addStyleSheet("$templatePath/css/kub.css");
 
 ?>
 <!DOCTYPE html>
