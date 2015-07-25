@@ -6,6 +6,11 @@ defined('_JEXEC') or die;
  * is called directly.
  */
 
+$config = JFactory::getConfig();
+$doc = JFactory::getDocument();
+$sitename = $config->get('sitename');
+$templateUrl = "{$this->baseurl}/templates/{$this->template}";
+
 include_once('functions.php');
 
 function jdocIncludeModules($position) {
@@ -15,11 +20,6 @@ function jdocIncludeModules($position) {
     }
 }
 
-$config = JFactory::getConfig();
-$doc = JFactory::getDocument();
-$sitename = $config->get('sitename');
-$templatePath = "{$this->baseurl}/templates/{$this->template}";
-
 // clear unneccessary scripts
 $doc->_script = Array();
 $doc->_scripts = Array();
@@ -27,7 +27,7 @@ $doc->_scripts = Array();
 $doc->setTitle($this->error->getCode() . ' - ' . $this->error->getMessage());
 $doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
 $doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
-$doc->addStyleSheet("$templatePath/css/kub.css");
+$doc->addStyleSheet("$templateUrl/css/kub.css");
 
 ?>
 <!DOCTYPE html>

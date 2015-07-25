@@ -1,11 +1,11 @@
 <?php
 defined('_JEXEC') or die;
 
-include_once('../functions.php');
-
 $config = JFactory::getConfig();
 $sitename = $config->get('sitename');
-$templatePath = "{$this->baseurl}/templates/{$this->template}";
+$templateUrl = "{$this->baseurl}/templates/{$this->template}";
+
+include_once('../functions.php');
 
 // clear unneccessary scripts
 $this->_script = Array();
@@ -14,7 +14,7 @@ $this->_scripts = Array();
 $this->setTitle("$sitename - {$this->getTitle()}");
 $this->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
 $this->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
-$this->addStyleSheet("$templatePath/css/kub.css");
+$this->addStyleSheet("$templateUrl/css/kub.css");
 
 ?>
 <!DOCTYPE html>
