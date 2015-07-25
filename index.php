@@ -1,6 +1,6 @@
 <?php include('partials/head.php') ?>
     <header>
-        <a href="<?php echo $this->baseurl; ?>" class="brand-link"><span class="brand-title" role="banner"><?php echo $sitename; ?></span></a>
+        <a href="<?php e($this->baseurl); ?>" class="brand-link"><span class="brand-title" role="banner"><?php e($sitename); ?></span></a>
         <jdoc:include type="modules" name="header" />
     </header>
     <nav>

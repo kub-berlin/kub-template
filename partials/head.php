@@ -1,6 +1,8 @@
 <?php
 defined('_JEXEC') or die;
 
+include_once('../functions.php');
+
 $config = JFactory::getConfig();
 $sitename = $config->get('sitename');
 $templatePath = "{$this->baseurl}/templates/{$this->template}";
@@ -18,9 +20,9 @@ $this->_styleSheets["$templatePath/css/kub.css"] = null;
 <!DOCTYPE html>
 <html
     xmlns="http://www.w3.org/1999/xhtml"
-    xml:lang="<?php echo $this->language; ?>"
-    lang="<?php echo $this->language; ?>"
-    dir="<?php echo $this->direction; ?>"
+    xml:lang="<?php e($this->language); ?>"
+    lang="<?php e($this->language); ?>"
+    dir="<?php e($this->direction); ?>"
     prefix="s: http://schema.org/">
 <head>
     <meta charset="utf-8">
