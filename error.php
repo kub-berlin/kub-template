@@ -12,7 +12,7 @@ $sitename = $config->get('sitename');
 $templateUrl = "{$this->baseurl}/templates/{$this->template}";
 $templatePath = JPATH_BASE . "/templates/{$this->template}";
 
-include_once("$templatePath/functions.php");
+include_once "$templatePath/functions.php";
 
 function jdocIncludeModules($position) {
     $modules = JModuleHelper::getModules($position);
@@ -59,4 +59,4 @@ $doc->addStyleSheet("$templateUrl/css/kub.css");
     <aside>
         <?php jdocIncludeModules('aside') ?>
     </aside>
-<?php include('partials/foot.php') ?>
+<?php include 'partials/foot.php'; ?>

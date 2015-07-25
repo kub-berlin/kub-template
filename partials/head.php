@@ -6,7 +6,7 @@ $sitename = $config->get('sitename');
 $templateUrl = "{$this->baseurl}/templates/{$this->template}";
 $templatePath = JPATH_BASE . "/templates/{$this->template}";
 
-include_once("$templatePath/functions.php");
+include_once "$templatePath/functions.php";
 
 // clear unneccessary scripts
 $this->_script = Array();

@@ -1,4 +1,4 @@
-<?php include('partials/head.php') ?>
+<?php include 'partials/head.php'; ?>
     <header>
         <a href="<?php e($this->baseurl); ?>" class="brand-link"><span class="brand-title" role="banner"><?php e($sitename); ?></span></a>
         <jdoc:include type="modules" name="header" />
@@ -13,4 +13,4 @@
     <aside>
         <jdoc:include type="modules" name="aside" />
     </aside>
-<?php include('partials/foot.php') ?>
+<?php include 'partials/foot.php'; ?>
