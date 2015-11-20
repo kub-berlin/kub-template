@@ -1,8 +1,7 @@
 @import "variables";
+@import "nav";
 
 html {
-    background: $color-brand;
-    color: $color-bg;
     margin: 1em 0;
     padding: 0;
 }
@@ -17,9 +16,6 @@ main {
     background: $color-bg;
     color: $color-fg;
     padding: 0.5em;
-}
-main a {
-    color: $color-brand;
 }
 
 .brand-link {
