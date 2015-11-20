@@ -1,6 +1,100 @@
+.nav,
+.nav-child {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background: #333;
+  color: #ccc;
+  font-size: small; }
+
+.nav {
+  overflow-y: auto; }
+  .nav a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5em 1em; }
+    .nav a:hover, .nav a:focus {
+      background: #444 !important;
+      color: #ccc !important; }
+  .nav li.active {
+    background: #ccc;
+    color: #333; }
+    .nav li.active > a {
+      background: white; }
+  .nav .nav-child li.active > a {
+    background: inherit; }
+  .nav li.current > a {
+    font-weight: bold; }
+
+.nav-child {
+  display: none;
+  border: 1px solid #333;
+  border-left: 0; }
+  .active .nav-child {
+    display: block; }
+
+.nav-child a {
+  padding-left: 2em; }
+
+nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20em;
+  width: 20rem; }
+
+body {
+  padding-left: 20em;
+  padding-left: 20rem; }
+
+.nav-toggle {
+  display: none; }
+
+@media (max-width: 40em) {
+  html {
+    width: 100%;
+    overflow-x: hidden; }
+
+  body {
+    position: relative;
+    left: 0;
+    padding-left: 0; }
+
+  nav {
+    left: -90vw;
+    width: 90vw; }
+
+  html.show-nav body {
+    left: 90vw; }
+  html.show-nav nav {
+    left: 0; }
+
+  body,
+  nav {
+    transition: left 0.3s; }
+
+  .nav-toggle {
+    display: block;
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: -2em;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    background: #333;
+    color: #ccc;
+    opacity: 0.5;
+    z-index: 2; }
+    .nav-toggle:hover {
+      cursor: pointer;
+      opacity: 1; } }
 html {
-  background: #991515;
-  color: white;
   margin: 1em 0;
   padding: 0; }
 
@@ -15,9 +109,6 @@ main {
   background: white;
   color: #333;
   padding: 0.5em; }
-
-main a {
-  color: #991515; }
 
 .brand-link {
   font-size: 300%;
