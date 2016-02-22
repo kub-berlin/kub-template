@@ -1,3 +1,125 @@
+@viewport {
+  width: device-width; }
+
+*,
+*::before,
+*::after {
+  max-width: 100%; }
+
+p, address, blockquote, pre, table, dl, ul, ol, figure {
+  margin-top: 0;
+  margin-bottom: 1em; }
+
+html {
+  overflow-y: scroll; }
+
+body {
+  color: #333;
+  font-size: medium;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 2em auto;
+  max-width: 40em;
+  padding: 0 0.5em; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  margin-bottom: 0.5rem; }
+
+a {
+  color: #991515;
+  text-decoration: underline; }
+  a:hover, a:focus, a:active {
+    color: #000; }
+
+*::selection {
+  background: #991515;
+  color: #fff; }
+
+p {
+  word-wrap: break-word;
+  hyphens: auto; }
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  margin: 1em 0; }
+
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0; }
+
+ol li, ul li {
+  line-height: 1.4; }
+
+dt {
+  font-weight: bold; }
+
+blockquote {
+  font-style: italic; }
+
+textarea {
+  resize: vertical; }
+
+@media print {
+  html {
+    background: transparent; }
+  body {
+    color: #000; }
+  h2, h3 {
+    page-break-after: avoid; } }
+
+.nav-toggle {
+  display: none; }
+
+@media (min-width: 60rem) {
+  body {
+    max-width: 80rem; }
+  #main,
+  #nav,
+  #aside {
+    float: left;
+    position: relative; }
+  #main {
+    padding-left: 16rem;
+    padding-right: 16rem;
+    width: 100%;
+    box-sizing: border-box; }
+  #nav {
+    width: 15rem;
+    left: 15rem;
+    margin-left: -15rem;
+    z-index: 1; }
+  #aside {
+    width: 15rem;
+    right: 15rem;
+    margin-right: -15rem; }
+  #footer {
+    clear: both; } }
+
+@media (max-width: 60rem) {
+  html {
+    width: 100%;
+    overflow-x: hidden; }
+  body {
+    position: relative;
+    left: 0;
+    padding-left: 0; }
+  #nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -90vw;
+    width: 90vw; }
+  html.show-nav body {
+    left: 90vw; }
+  html.show-nav #nav {
+    left: 0; }
+  body,
+  #nav {
+    transition: left 0.3s; }
+  .nav-toggle {
+    display: block; } }
+
 .nav,
 .nav-child {
   list-style: none;
@@ -10,6 +132,7 @@ nav {
   font-size: small; }
 
 .nav {
+  max-height: 100%;
   overflow-y: auto; }
   .nav a {
     display: block;
@@ -39,79 +162,48 @@ nav {
 .nav-child a {
   padding-left: 2em; }
 
-nav {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 20em;
-  width: 20rem; }
-
-body {
-  padding-left: 20em;
-  padding-left: 20rem; }
-
 .nav-toggle {
-  display: none; }
-
-@media (max-width: 40em) {
-  html {
-    width: 100%;
-    overflow-x: hidden; }
-
-  body {
-    position: relative;
-    left: 0;
-    padding-left: 0; }
-
-  nav {
-    left: -90vw;
-    width: 90vw; }
-
-  html.show-nav body {
-    left: 90vw; }
-  html.show-nav nav {
-    left: 0; }
-
-  body,
-  nav {
-    transition: left 0.3s; }
-
-  .nav-toggle {
-    display: block;
-    font-size: large;
-    position: absolute;
-    top: 0;
-    right: -2em;
-    width: 2em;
-    height: 2em;
-    text-align: center;
-    line-height: 2em;
-    background: #333;
+  font-size: large;
+  position: absolute;
+  top: 0;
+  right: -2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  background: #333;
+  color: #ccc;
+  opacity: 0.5;
+  z-index: 2; }
+  .nav-toggle:hover {
     color: #ccc;
-    opacity: 0.5;
-    z-index: 2; }
-    .nav-toggle:hover {
-      cursor: pointer;
-      opacity: 1; } }
-html {
-  margin: 1em 0;
-  padding: 0; }
+    cursor: pointer;
+    opacity: 1; }
 
-a {
-  color: inherit; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+  table td, table th {
+    text-align: start;
+    padding: 0.5em;
+    border-top: 1px solid #aaa;
+    vertical-align: top; }
 
-body {
-  max-width: 40em;
-  margin: 0 auto; }
+.breadcrumb {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .breadcrumb li {
+    display: inline-block; }
 
 main {
-  background: white;
+  background: #fff;
   color: #333;
   padding: 0.5em; }
 
 .brand-link {
   font-size: 300%;
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 /*# sourceMappingURL=kub.css.map */
