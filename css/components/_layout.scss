@@ -6,7 +6,7 @@ $main-width-max: 50rem;
     display: none;
 }
 
-@media (min-width: 2 * $side-width + $main-width-min) {
+@media screen and (min-width: 2 * $side-width + $main-width-min) {
     body {
         max-width: 2 * $side-width + $main-width-max;
     }
@@ -38,7 +38,7 @@ $main-width-max: 50rem;
     }
 }
 
-@media (max-width: 2 * $side-width + $main-width-min) {
+@media screen and (max-width: 2 * $side-width + $main-width-min) {
     html {
         width: 100%;
         overflow-x: hidden;

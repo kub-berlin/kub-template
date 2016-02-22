@@ -71,7 +71,7 @@ textarea {
 .nav-toggle {
   display: none; }
 
-@media (min-width: 60rem) {
+@media screen and (min-width: 60rem) {
   body {
     max-width: 80rem; }
   #main,
@@ -96,7 +96,7 @@ textarea {
   #footer {
     clear: both; } }
 
-@media (max-width: 60rem) {
+@media screen and (max-width: 60rem) {
   html {
     width: 100%;
     overflow-x: hidden; }
