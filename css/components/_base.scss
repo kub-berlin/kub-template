@@ -1,10 +1,19 @@
-* {
+@viewport {
+    width: device-width;
+}
+
+*,
+*::before,
+*::after {
     max-width: 100%;
 }
 
+p, address, blockquote, pre, table, dl, ul, ol, figure {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
 html {
-    margin: 1em 0;
-    padding: 0;
     overflow-y: scroll;
 }
 
@@ -12,13 +21,15 @@ body {
     color: $color-fg;
     font-size: medium;
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 2em auto;
     max-width: 40em;
+    padding: 0 0.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.2;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
 }
 
 a {
@@ -46,8 +57,13 @@ hr {
     margin: 1em 0;
 }
 
-li {
-    line-height: 1.4em;
+ol, ul {
+    ol, ul {
+        margin-bottom: 0;
+    }
+    li {
+        line-height: 1.4;
+    }
 }
 dt {
     font-weight: bold;
@@ -57,7 +73,20 @@ blockquote {
     font-style: italic;
 }
 
-p, address, blockquote, pre, table, dl, ul, ol {
-    margin-top: 0;
-    margin-bottom: 1em;
+textarea {
+    resize: vertical;
+}
+
+@media print {
+    html {
+        background: transparent;
+    }
+
+    body {
+        color: #000;  // Black prints faster:
+    }
+
+    h2, h3 {
+        page-break-after: avoid;
+    }
 }
