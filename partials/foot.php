@@ -1,4 +1,4 @@
-    <footer>
+    <footer id="footer">
         <jdoc:include type="modules" name="footer" />
     </footer>
 

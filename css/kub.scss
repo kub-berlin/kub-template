@@ -1,17 +1,10 @@
-@import "variables";
-@import "nav";
+@import "vars";
+@import "components/base";
+@import "components/layout";
+@import "components/nav";
+@import "components/table";
+@import "components/breadcrumb";
 
-html {
-    margin: 1em 0;
-    padding: 0;
-}
-a {
-    color: inherit;
-}
-body {
-    max-width: 40em;
-    margin: 0 auto;
-}
 main {
     background: $color-bg;
     color: $color-fg;
@@ -21,4 +14,5 @@ main {
 .brand-link {
     font-size: 300%;
     text-decoration: none;
+    color: inherit;
 }

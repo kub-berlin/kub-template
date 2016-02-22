@@ -1,0 +1,63 @@
+* {
+    max-width: 100%;
+}
+
+html {
+    margin: 1em 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+body {
+    color: $color-fg;
+    font-size: medium;
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 2em auto;
+    max-width: 40em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+}
+
+a {
+    color: $color-link;
+    text-decoration: underline;
+
+    &:hover, &:focus, &:active {
+        color: $color-link-focus;
+    }
+}
+
+*::selection {
+    background: $color-link;
+    color: $color-bg;
+}
+
+p {
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid $color-border;
+    margin: 1em 0;
+}
+
+li {
+    line-height: 1.4em;
+}
+dt {
+    font-weight: bold;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+p, address, blockquote, pre, table, dl, ul, ol {
+    margin-top: 0;
+    margin-bottom: 1em;
+}

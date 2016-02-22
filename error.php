@@ -46,17 +46,17 @@ $doc->addStyleSheet("$templateUrl/css/kub.css");
     <![endif]-->
 </head>
 <body>
-    <header>
+    <header id="header">
         <a href="/" class="brand-link"><span class="brand-title" role="banner"><?php e($sitename); ?></span></a>
         <?php jdocIncludeModules('header') ?>
     </header>
-    <nav>
+    <nav id="nav">
         <?php jdocIncludeModules('navigation') ?>
     </nav>
-    <main>
+    <main id="main">
         <h1><?php e($this->error->getCode()); ?> - <?php e(JText::_($this->error->getMessage())); ?></h1>
     </main>
-    <aside>
+    <aside id="aside">
         <?php jdocIncludeModules('aside') ?>
     </aside>
 <?php include 'partials/foot.php'; ?>
