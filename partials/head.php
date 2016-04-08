@@ -17,8 +17,6 @@ $this->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
 $this->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
 $this->addStyleSheet("$templateUrl/bower_components/normalize-css/normalize.css");
 $this->addStyleSheet("$templateUrl/css/kub.css");
-$this->addStyleSheet("//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
-$this->addScript("//code.jquery.com/jquery-1.11.3.min.js");
 $this->addScript("$templateUrl/js/nav.js");
 
 ?>
