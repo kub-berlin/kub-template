@@ -46,17 +46,24 @@ $doc->addStyleSheet("$templateUrl/css/kub.css");
     <![endif]-->
 </head>
 <body>
-    <header id="header">
-        <a href="/" class="brand-link"><span class="brand-title" role="banner"><?php e($sitename); ?></span></a>
-        <?php jdocIncludeModules('header') ?>
-    </header>
-    <nav id="nav">
-        <?php jdocIncludeModules('navigation') ?>
-    </nav>
-    <main id="main">
-        <h1><?php e($this->error->getCode()); ?> - <?php e(JText::_($this->error->getMessage())); ?></h1>
-    </main>
-    <aside id="aside">
-        <?php jdocIncludeModules('aside') ?>
-    </aside>
+    <div id="header-container">
+        <header id="header">
+            <a href="<?php e($this->baseurl); ?>" class="brand-link">
+                <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.svg" role="banner"/>
+            </a>
+            <?php jdocIncludeModules('header-1') ?>
+            <?php jdocIncludeModules('header-2') ?>
+        </header>
+        <nav id="nav">
+            <?php jdocIncludeModules('navigation') ?>
+        </nav>
+    </div>
+    <div id="main-container">
+        <main id="main">
+            <h1><?php e($this->error->getCode()); ?> - <?php e(JText::_($this->error->getMessage())); ?></h1>
+        </main>
+        <aside id="aside">
+            <?php jdocIncludeModules('aside') ?>
+        </aside>
+    </div>
 <?php include 'partials/foot.php'; ?>

@@ -1,16 +1,23 @@
 <?php include 'partials/head.php'; ?>
-    <header id="header">
-        <a href="<?php e($this->baseurl); ?>" class="brand-link"><span class="brand-title" role="banner"><?php e($sitename); ?></span></a>
-        <jdoc:include type="modules" name="header" />
-    </header>
-    <nav id="nav">
-        <jdoc:include type="modules" name="navigation" />
-    </nav>
-    <main id="main">
-        <jdoc:include type="message" />
-        <jdoc:include type="component" />
-    </main>
-    <aside id="aside">
-        <jdoc:include type="modules" name="aside" />
-    </aside>
+    <div id="header-container">
+        <header id="header">
+            <a href="<?php e($this->baseurl); ?>" class="brand-link">
+                <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.svg" role="banner"/>
+            </a>
+            <jdoc:include type="modules" name="header-1" />
+            <jdoc:include type="modules" name="header-2" />
+        </header>
+        <nav id="nav">
+            <jdoc:include type="modules" name="navigation" />
+        </nav>
+    </div>
+    <div id="main-container">
+        <nav id="site-nav">
+            <jdoc:include type="modules" name="navigation" />
+        </nav>
+        <main id="main">
+            <jdoc:include type="message" />
+            <jdoc:include type="component" />
+        </main>
+    </div>
 <?php include 'partials/foot.php'; ?>
