@@ -1,9 +1,25 @@
+$color-brand-0: #003466;  // dark blue
+$color-brand-1: #67999A;  // turquis
+$color-brand-2: #CD66FF;  // light purple
+$color-brand-3: #FF6600;  // orange
+$color-brand-4: #99CC33;  // green
+$color-brand-5: #FEC601;  // yellow
+$color-brand-6: #CC6666;  // red
+$color-brand-7: #320033;  // dark purple
+
 $color-bg: #fff;
-$color-fg: #333;
+$color-fg: #111;
 $color-bg-tint: #f8f8f8;
-$color-border: #aaa;
-$color-link: #991515;
-$color-link-focus: #000;
+$color-border: $color-fg;
+$color-link: $color-brand-0;
+$color-link-focus: $color-brand-1;
+
+$color-nav-1: $color-link;
+$color-nav-2: $color-brand-7;
+$color-nav-focus: $color-brand-4;
+
+$planifolia-contrast-dark-default: $color-fg;
+$planifolia-contrast-light-default: $color-bg;
 
 $grey1: #333;
 $grey2: #444;

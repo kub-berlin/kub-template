@@ -1,78 +1,138 @@
-.nav,
-.nav-child {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+@mixin nav-color($color) {
+    background: $color;
+    color: contrast-color($color);
+
+    &:hover, &:focus {
+        background: lighten($color, 10%);
+        color: contrast-color(lighten($color, 10%));
+    }
 }
 
-nav {
-    background: $grey1;
-    color: $grey3;
-    font-size: small;
+#nav {
+    font-size: 110%;
+    clear: both;
+
+    display: none;
+
+    &.is-visible {
+        display: block;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    a {
+        @include nav-color($color-nav-1);
+        padding: 0.5em 1.5em;
+        margin-bottom: 1px;
+    }
+
+    ul ul {
+        text-indent: 2em;
+        font-size: (100% / 1.1);
+    }
+
+    .current > a {
+        @include nav-color($color-nav-2);
+    }
+
+    > ul > li {
+        margin-bottom: 2px;
+    }
 }
 
-.nav {
-    max-height: 100%;
-    overflow-y: auto;
+#site-nav {
+    display: none;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .nav > li.active > a,
+    .nav > li:not(.active) {
+        display: none;
+    }
 
     a {
         display: block;
         text-decoration: none;
         color: inherit;
-        padding: 0.5em 1em;
+
+        padding: 0.2em 0.5em;
+        border-bottom: 1px solid black;
 
         &:hover, &:focus {
-            background: $grey2 !important;
-            color: $grey3 !important;
+            background: silver;
+            color: contrast-color(silver);
         }
     }
-    li.active {
-        background: $grey3;
-        color: $grey1;
 
-        > a {
-            background: white;
+    .current > a {
+        background: $color-nav-2;
+        color: contrast-color($color-nav-2);
+
+        &:hover, &:focus {
+            background: lighten($color-nav-2, 10%);
+            color: contrast-color(lighten($color-nav-2, 10%));
         }
-    }
-    .nav-child li.active > a {
-        background: inherit;
-    }
-    li.current > a {
-        font-weight: bold;
     }
 }
 
-.nav-child {
-    display: none;
-    border: 1px solid $grey1;
-    border-left: 0;
+.menu-button {
+    float: right;
+}
 
-    .active & {
+@media (min-width: 58em) {
+    .menu-button {
+        display: none;
+    }
+
+    #nav {
+        display: block !important;
+        overflow-x: hidden;  // clearfix
+
+        ul ul {
+            display: none;
+        }
+
+        $columns: 6;
+        $gutter: 0.2%;
+        $width: (100% + $gutter) / $columns - $gutter;
+
+        li {
+            text-align: center;
+            position: relative;
+            float: left;
+            left: 100%;
+            width: $width;
+
+            @for $i from 1 through $columns {
+                &:nth-child(#{$i}) {
+                    margin-left: -100% + ($i - 1) * (100% + $gutter) / $columns;
+                }
+            }
+        }
+
+        // reset
+        > ul > li, a {
+            margin: 0;
+        }
+    }
+
+    #site-nav {
         display: block;
-    }
-}
-
-.nav-child a {
-    padding-left: 2em;
-}
-
-.nav-toggle {
-    font-size: large;
-    position: absolute;
-    top: 0;
-    right: -2em;
-    width: 2em;
-    height: 2em;
-    text-align: center;
-    line-height: 2em;
-    background: $grey1;
-    color: $grey3;
-    opacity: 0.5;
-    z-index: 2;
-
-    &:hover {
-        color: $grey3;
-        cursor: pointer;
-        opacity: 1;
     }
 }

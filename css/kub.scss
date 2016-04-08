@@ -1,18 +1,25 @@
+@import "less-burger-menu.min.css";
+
+@import "../bower_components/sass-planifolia/sass/math";
+@import "../bower_components/sass-planifolia/sass/contrast";
+
 @import "vars";
 @import "components/base";
 @import "components/layout";
+@import "components/form";
 @import "components/nav";
 @import "components/table";
 @import "components/breadcrumb";
 
-main {
-    background: $color-bg;
-    color: $color-fg;
-    padding: 0.5em;
+html {
+    font-size: 90%;
+    background-color: $color-brand-1;
 }
 
-.brand-link {
-    font-size: 300%;
-    text-decoration: none;
-    color: inherit;
+body {
+    margin: 1em auto 2em;
+}
+
+.brand-link img {
+    max-width: 40%;
 }
