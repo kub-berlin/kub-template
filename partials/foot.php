@@ -1,7 +1,5 @@
-    <footer id="footer">
-        <jdoc:include type="modules" name="footer" />
-    </footer>
+    <?php kub_module($this, 'footer', 'footer'); ?>
 
-    <jdoc:include type="modules" name="debug" />
+    <?php kub_module($this, 'debug'); ?>
 </body>
 </html>

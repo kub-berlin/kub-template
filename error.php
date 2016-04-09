@@ -14,13 +14,6 @@ $templatePath = JPATH_BASE . "/templates/{$this->template}";
 
 include_once "$templatePath/functions.php";
 
-function jdocIncludeModules($position) {
-    $modules = JModuleHelper::getModules($position);
-    foreach ($modules as $module) {
-        echo JModuleHelper::renderModule($module);
-    }
-}
-
 // clear unneccessary scripts
 $doc->_script = Array();
 $doc->_scripts = Array();
