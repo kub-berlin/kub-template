@@ -51,8 +51,8 @@ $doc->addStyleSheet("$templateUrl/css/kub.css");
             <a href="<?php e($this->baseurl); ?>" class="brand-link">
                 <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.svg" role="banner"/>
             </a>
-            <?php jdocIncludeModules('header-1') ?>
-            <?php jdocIncludeModules('header-2') ?>
+            <?php jdocIncludeModules('header-side') ?>
+            <?php jdocIncludeModules('header-bottom') ?>
         </header>
         <nav id="nav">
             <?php jdocIncludeModules('navigation') ?>

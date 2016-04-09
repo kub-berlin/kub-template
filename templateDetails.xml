@@ -16,8 +16,8 @@
         <folder>css</folder>
     </files>
     <positions>
-        <position>header-1</position>
-        <position>header-2</position>
+        <position>header-side</position>
+        <position>header-bottom</position>
         <position>navigation</position>
         <position>footer</position>
     </positions>

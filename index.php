@@ -4,8 +4,8 @@
             <a href="<?php e($this->baseurl); ?>" class="brand-link">
                 <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.svg" role="banner"/>
             </a>
-            <jdoc:include type="modules" name="header-1" />
-            <jdoc:include type="modules" name="header-2" />
+            <jdoc:include type="modules" name="header-side" />
+            <jdoc:include type="modules" name="header-bottom" />
         </header>
         <nav id="nav">
             <jdoc:include type="modules" name="navigation" />
