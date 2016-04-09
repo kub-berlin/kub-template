@@ -1,6 +1,4 @@
 #header-container,
-// #main,
-// #site-nav,
 #main-container,
 #footer {
     background: $color-bg;
@@ -22,7 +20,7 @@
     #main-container {
         overflow: hidden;  // clearfix
     }
-    #site-nav {
+    #section-nav {
         float: left;
         width: grid-width(3);
     }

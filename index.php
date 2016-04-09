@@ -11,8 +11,11 @@
             <jdoc:include type="modules" name="navigation" />
         </nav>
     </div>
+
+    <jdoc:include type="mudules" name="top" />
+
     <div id="main-container">
-        <nav id="site-nav">
+        <nav id="section-nav">
             <jdoc:include type="modules" name="navigation" />
         </nav>
         <main id="main">
@@ -20,4 +23,7 @@
             <jdoc:include type="component" />
         </main>
     </div>
+
+    <jdoc:include type="mudules" name="bottom" />
+
 <?php include 'partials/foot.php'; ?>
