@@ -6,7 +6,7 @@
 		"../bower_components/sass-planifolia/sass/math.scss",
 		"../bower_components/sass-planifolia/sass/contrast.scss",
 		"_vars.scss",
-		"../_helpers.scss",
+		"_helpers.scss",
 		"components/_base.scss",
 		"components/_layout.scss",
 		"components/_form.scss",
