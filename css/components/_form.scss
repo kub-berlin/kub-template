@@ -1,0 +1,37 @@
+select,
+textarea,
+input[type=text],
+input[type=search] {
+    border: 1px solid $color-border;
+    background-color: $color-bg-tint;
+    color: $color-fg;
+    padding: 0.1em;
+}
+
+button,
+input[type=submit] {
+    border: 0;
+    background: $color-link;
+    color: contrast-color($color-link);
+
+    &:hover, &:focus {
+        background: $color-brand-4;
+        color: contrast-color($color-brand-4);
+    }
+}
+
+fieldset {
+    margin-bottom: 1.5em;
+}
+
+.icon-search:before {
+    content: "Search";
+}
+
+.btn-toolbar {
+    margin-bottom: 1.5em;
+
+    .btn-group {
+        display: inline-block;
+    }
+}
