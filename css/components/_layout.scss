@@ -19,6 +19,7 @@
 
     #main-container {
         overflow: hidden;  // clearfix
+        word-wrap: break-word;
     }
     #section-nav {
         float: left;

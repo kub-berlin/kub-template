@@ -94,7 +94,8 @@ textarea {
   body {
     max-width: 70.07299em; }
   #main-container {
-    overflow: hidden; }
+    overflow: hidden;
+    word-wrap: break-word; }
   #section-nav {
     float: left;
     width: 22.75%; }
