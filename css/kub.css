@@ -92,16 +92,16 @@ textarea {
 
 @media (min-width: 58em) {
   body {
-    max-width: 69.06475em; }
+    max-width: 70.07299em; }
   #main-container {
     overflow: hidden; }
   #site-nav {
     float: left;
-    width: 24.25%; }
+    width: 22.75%; }
   #main {
     float: left;
-    width: 57.91667%;
-    margin-left: 1%; } }
+    width: 57.08333%;
+    margin-left: 3%; } }
 
 select,
 textarea,
@@ -211,19 +211,23 @@ fieldset {
       position: relative;
       float: left;
       left: 100%;
-      width: 16.5%; }
+      width: 19.84%; }
       #nav li:nth-child(1) {
         margin-left: -100%; }
       #nav li:nth-child(2) {
-        margin-left: -83.3%; }
+        margin-left: -79.96%; }
       #nav li:nth-child(3) {
-        margin-left: -66.6%; }
+        margin-left: -59.92%; }
       #nav li:nth-child(4) {
-        margin-left: -49.9%; }
+        margin-left: -39.88%; }
       #nav li:nth-child(5) {
-        margin-left: -33.2%; }
-      #nav li:nth-child(6) {
-        margin-left: -16.5%; }
+        margin-left: -19.84%; }
+    #nav .nav > li.active > a {
+      background: #320033;
+      color: #fff; }
+      #nav .nav > li.active > a:hover, #nav .nav > li.active > a:focus {
+        background: #640066;
+        color: #fff; }
     #nav > ul > li, #nav a {
       margin: 0; }
   #site-nav {
