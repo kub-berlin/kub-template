@@ -25,12 +25,9 @@
         word-wrap: break-word;
     }
     #section-nav {
-        float: left;
-        width: grid-width(3);
+        @include grid-cell(3, 0);
     }
     #main {
-        float: left;
-        width: grid-width(7);
-        margin-left: 3%;
+        @include grid-cell(7, 3);
     }
 }

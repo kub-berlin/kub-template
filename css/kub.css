@@ -1,4 +1,9 @@
 @import url(less-burger-menu.min.css);
+#section-nav, #main {
+  position: relative;
+  float: left;
+  left: 100%; }
+
 @viewport {
   width: device-width; }
 
@@ -100,12 +105,11 @@ textarea {
     overflow: hidden;
     word-wrap: break-word; }
   #section-nav {
-    float: left;
-    width: 22.75%; }
+    width: 22.75%;
+    margin-left: -100%; }
   #main {
-    float: left;
     width: 57.08333%;
-    margin-left: 3%; } }
+    margin-left: -74.25%; } }
 
 select,
 textarea,

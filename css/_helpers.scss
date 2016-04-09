@@ -1,3 +1,15 @@
 @function grid-width($k, $n: 12, $gutter: 3%) {
     @return (100% + $gutter) * $k / $n - $gutter;
 }
+
+%grid-cell {
+    position: relative;
+    float: left;
+    left: 100%;
+}
+
+@mixin grid-cell($width, $position, $n: 12, $gutter: 3%) {
+    @extend %grid-cell;
+    width: grid-width($width, $n, $gutter);
+    margin-left: -100% + grid-width($position, $n, $gutter) + $gutter;
+}
