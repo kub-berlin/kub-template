@@ -95,7 +95,7 @@ textarea {
     max-width: 70.07299em; }
   #main-container {
     overflow: hidden; }
-  #site-nav {
+  #section-nav {
     float: left;
     width: 22.75%; }
   #main {
@@ -170,28 +170,28 @@ fieldset {
   #nav > ul > li {
     margin-bottom: 2px; }
 
-#site-nav {
+#section-nav {
   display: none; }
-  #site-nav ul {
+  #section-nav ul {
     margin: 0;
     padding: 0;
     list-style: none; }
-  #site-nav .nav > li.active > a,
-  #site-nav .nav > li:not(.active) {
+  #section-nav .nav > li.active > a,
+  #section-nav .nav > li:not(.active) {
     display: none; }
-  #site-nav a {
+  #section-nav a {
     display: block;
     text-decoration: none;
     color: inherit;
     padding: 0.2em 0.5em;
     border-bottom: 1px solid black; }
-    #site-nav a:hover, #site-nav a:focus {
+    #section-nav a:hover, #section-nav a:focus {
       background: silver;
       color: #111; }
-  #site-nav .current > a {
+  #section-nav .current > a {
     background: #320033;
     color: #fff; }
-    #site-nav .current > a:hover, #site-nav .current > a:focus {
+    #section-nav .current > a:hover, #section-nav .current > a:focus {
       background: #640066;
       color: #fff; }
 
@@ -230,7 +230,7 @@ fieldset {
         color: #fff; }
     #nav > ul > li, #nav a {
       margin: 0; }
-  #site-nav {
+  #section-nav {
     display: block; } }
 
 table {
