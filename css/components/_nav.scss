@@ -108,22 +108,22 @@
             display: none;
         }
 
-        $columns: 6;
-        $gutter: 0.2%;
-        $width: (100% + $gutter) / $columns - $gutter;
-
         li {
             text-align: center;
             position: relative;
             float: left;
             left: 100%;
-            width: $width;
+            width: grid-width(1, 5, 0.2%);
 
-            @for $i from 1 through $columns {
+            @for $i from 1 through 5 {
                 &:nth-child(#{$i}) {
-                    margin-left: -100% + ($i - 1) * (100% + $gutter) / $columns;
+                    margin-left: -100% + grid-width($i - 1, 5, 0.2%) + 0.2%;
                 }
             }
+        }
+
+        .nav > li.active > a {
+            @include nav-color($color-nav-2);
         }
 
         // reset

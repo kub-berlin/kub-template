@@ -14,10 +14,6 @@
     padding: 1em;
 }
 
-@function grid-width($k, $n: 12, $gutter: 1%) {
-    @return (100% + $gutter) * $k / $n - $gutter;
-}
-
 @media (min-width: $breakpoint) {
     body {
         max-width: 40em * 100% / grid-width(7);
@@ -33,6 +29,6 @@
     #main {
         float: left;
         width: grid-width(7);
-        margin-left: 1%;
+        margin-left: 3%;
     }
 }
