@@ -24,6 +24,8 @@
         </main>
     </div>
 
-    <jdoc:include type="mudules" name="bottom" />
+    <aside id="aside">
+        <jdoc:include type="modules" name="aside" />
+    </aside>
 
 <?php include 'partials/foot.php'; ?>
