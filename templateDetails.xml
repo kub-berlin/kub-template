@@ -18,6 +18,7 @@
     <positions>
         <position>header-side</position>
         <position>header-bottom</position>
+        <position>top</position>
         <position>aside</position>
         <position>navigation</position>
         <position>footer</position>

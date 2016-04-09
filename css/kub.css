@@ -80,12 +80,15 @@ textarea {
 
 #header-container,
 #main-container,
+#top,
+#aside,
 #footer {
   background: #fff;
   margin-bottom: 1.5em; }
 
 #header,
 #main,
+#top,
 #aside,
 #footer {
   padding: 1em; }

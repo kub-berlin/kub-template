@@ -12,7 +12,9 @@
         </nav>
     </div>
 
-    <jdoc:include type="mudules" name="top" />
+    <div id="top">
+        <jdoc:include type="modules" name="top" />
+    </div>
 
     <div id="main-container">
         <nav id="section-nav">
