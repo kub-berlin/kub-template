@@ -18,7 +18,7 @@
     @return (100% + $gutter) * $k / $n - $gutter;
 }
 
-@media (min-width: 58em) {
+@media (min-width: $breakpoint) {
     body {
         max-width: 40em * 100% / grid-width(7);
     }

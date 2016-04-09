@@ -95,7 +95,7 @@
     float: right;
 }
 
-@media (min-width: 58em) {
+@media (min-width: $breakpoint) {
     .menu-button {
         display: none;
     }
