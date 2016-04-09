@@ -253,6 +253,23 @@ table {
   .breadcrumb li {
     display: inline-block; }
 
+#header-bottom address {
+  margin: 0;
+  font-style: inherit;
+  font-size: 80%; }
+
+#header-bottom ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+#header-bottom li {
+  display: inline;
+  margin-right: 1em; }
+
+#header-side {
+  float: right; }
+
 html {
   font-size: 90%;
   background-color: #67999A; }
