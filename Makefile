@@ -5,5 +5,5 @@ css/kub-rtl.css: css/kub-ltr.css
 	sed -i 's/RIGHT/right/g' $@
 
 css/kub-ltr.css: css/kub.scss css/_*.scss css/components/_*.scss
-	node-sass --source-map css/kub-ltr.css.map -o css $<
+	node-sass --output-style compressed --source-map css/kub-ltr.css.map -o css $<
 	mv css/kub.css $@
