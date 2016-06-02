@@ -1,0 +1,47 @@
+.category-module {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    li {
+        display: table;
+        width: 100%;
+        margin-bottom: 1em;
+
+        @media (min-width: $breakpoint) {
+            float: left;
+            width: 49%;
+
+            &:nth-child(2n + 1) {
+                margin-right: 2%;
+            }
+        }
+    }
+
+    .mod-articles-category-title {
+        text-decoration: none;
+
+        padding: 1em;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        height: 8em;
+        margin-bottom: 2em;
+        font-weight: bold;
+        font-size: 110%;
+
+        background: $color-brand-light;
+        color: contrast-color($color-brand-light);
+
+        &:focus, &:hover {
+            background: $color-brand;
+            color: contrast-color($color-brand);
+        }
+    }
+}
