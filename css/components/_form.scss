@@ -15,8 +15,8 @@ input[type=submit] {
     color: contrast-color($color-link);
 
     &:hover, &:focus {
-        background: $color-brand-4;
-        color: contrast-color($color-brand-4);
+        background: $color-link-focus;
+        color: contrast-color($color-link-focus);
     }
 }
 
