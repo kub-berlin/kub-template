@@ -1,9 +1,8 @@
-#header-bottom {
-	address {
-		margin: 0;
-		font-style: inherit;
-		font-size: 80%;
-	}
+#address {
+	margin: 0;
+	font-style: inherit;
+	font-size: 80%;
+
 	ul {
 		list-style: none;
 		padding: 0;
@@ -12,6 +11,7 @@
 	li {
 		display: inline;
 		margin-right: 1em;
+		white-space: nowrap;
 	}
 }
 
