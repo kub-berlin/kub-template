@@ -21,6 +21,7 @@
         <main id="main">
             <jdoc:include type="message" />
             <jdoc:include type="component" />
+            <jdoc:include type="modules" name="main-bottom" />
         </main>
     </div>
 
