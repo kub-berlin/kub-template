@@ -9,6 +9,18 @@ $color-brand-7: #320033;  // dark purple
 
 $color-bg: #fff;
 $color-fg: #111;
+
+@function mix-lightness($a, $b, $x: 5) {
+    @return ($a + $b) / 2;
+}
+
+$hue: pf-hue(#67999A);
+$lightness: 34;
+
+$color-brand: lch($lightness, 27.4, $hue);
+$color-brand-light: lch(mix-lightness($lightness, pf-lightness($color-bg)), 13.5, $hue);
+$color-brand-dark: lch(mix-lightness($lightness, pf-lightness($color-fg)), 26.6, $hue);
+
 $color-bg-tint: #f8f8f8;
 $color-border: $color-fg;
 $color-link: $color-brand-0;
