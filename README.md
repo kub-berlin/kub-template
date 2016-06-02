@@ -8,9 +8,9 @@ See https://docs.joomla.org/J3.x:Installing_a_template
 
 1.  Install requirements
 
-        gem install --user-install sass
+        npm install -g node-sass
 
 2.  Run `make`
 
 3.  Once you are finished with a new feature, add the compiled files to the
-    repository. Please add the updated files in a separate commit.
+    repository. Please add the updated CSS files in a separate commit.
