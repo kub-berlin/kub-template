@@ -19,6 +19,8 @@ $this->addStyleSheet("$templateUrl/bower_components/normalize-css/normalize.css"
 $this->addStyleSheet("$templateUrl/css/kub.css");
 $this->addScript("$templateUrl/js/nav.js");
 
+kub_opengraph($this);
+
 ?>
 <!DOCTYPE html>
 <html
@@ -26,7 +28,7 @@ $this->addScript("$templateUrl/js/nav.js");
     xml:lang="<?php e($this->language); ?>"
     lang="<?php e($this->language); ?>"
     dir="<?php e($this->direction); ?>"
-    prefix="s: http://schema.org/">
+    prefix="s: http://schema.org/ og: http://ogp.me/ns#">
 <head>
     <meta charset="utf-8">
     <jdoc:include type="head" />
