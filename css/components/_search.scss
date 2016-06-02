@@ -1,0 +1,44 @@
+#searchForm {
+    // full width searchword
+    .btn-toolbar {
+        display: flex;
+
+        div:first-child {
+            flex: auto;
+        }
+    }
+    #search-searchword {
+        width: 100%;
+    }
+
+    // .searchintro and .form-limit on one line
+    .searchintro {
+        float: left;
+    }
+    .form-limit {
+        text-align: right;
+    }
+
+    .phrases {
+        display: none;
+    }
+}
+
+.search-results {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+        margin-bottom: 2em;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid $color-border;
+            padding-bottom: 2em;
+        }
+    }
+
+    .result-category {
+        font-style: italic;
+    }
+}
