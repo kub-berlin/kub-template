@@ -22,3 +22,9 @@
 #header-side {
     float: right;
 }
+
+@media (min-width: $breakpoint) {
+    .brand-link img {
+        max-width: 40%;
+    }
+}
