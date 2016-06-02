@@ -33,9 +33,6 @@ function kub_opengraph($document) {
 
     $desc = $article_title->get('metadesc');
     if (empty($desc)) {
-        $desc = $app->getMenu()->getActive()->params->get('menu-meta_description');
-    }
-    if (empty($desc)) {
         $desc = $document->getMetaData('description');
     }
 
