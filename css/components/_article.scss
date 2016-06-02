@@ -11,8 +11,18 @@
     }
 }
 
+.page-header {
+    font-size: 150%;
+}
+
 .blog {
     > div {
         margin-bottom: 6em;
+    }
+
+    .page-header a {
+        display: block;
+        text-decoration: none;
+        border-bottom: 0.2em solid;
     }
 }
