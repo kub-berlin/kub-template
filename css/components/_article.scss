@@ -6,3 +6,9 @@
         margin: 0;
     }
 }
+
+.blog {
+    > div {
+        margin-bottom: 6em;
+    }
+}
