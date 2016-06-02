@@ -43,6 +43,10 @@
         font-size: (100% / 1.1);
     }
 
+    ul ul ul {
+        display: none;
+    }
+
     .current > a {
         @include nav-color($color-brand-dark, $color-brand-dark);
     }
@@ -78,6 +82,14 @@
             background: $color-brand-light;
             color: contrast-color($color-brand-light);
         }
+    }
+
+    ul ul ul a {
+        padding-left: 2em;
+    }
+
+    ul ul ul ul {
+        display: none;
     }
 
     .current > a {
