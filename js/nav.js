@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-    var header = document.getElementById('header-side');
+    var header = document.getElementById('header');
     var nav = document.getElementById('nav');
 
     var wrapper = document.createElement('div');

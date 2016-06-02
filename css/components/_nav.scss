@@ -98,7 +98,9 @@
 }
 
 .menu-button {
-    float: right;
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
 }
 
 @media (min-width: $breakpoint) {
@@ -140,5 +142,11 @@
 
     #section-nav {
         display: block;
+    }
+
+    #search {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
     }
 }

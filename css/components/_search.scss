@@ -1,3 +1,13 @@
+#search {
+    padding: 0.2em;
+
+    input {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
 #searchForm {
     // full width searchword
     .btn-toolbar {
