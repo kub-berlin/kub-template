@@ -1,7 +1,8 @@
-.item-page {
-    .icons,
-    .pager,
-    .article-info {
+.article-info {
+    .article-info-term {
         display: none;
+    }
+    dd {
+        margin: 0;
     }
 }
