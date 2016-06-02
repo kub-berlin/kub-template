@@ -25,3 +25,14 @@ $grey2: #444;
 $grey3: #ccc;
 
 $breakpoint: 58em;
+
+@each $color in (
+    $color-bg,
+    $color-fg,
+    $color-bg-tint,
+    $color-brand,
+    $color-brand-light,
+    $color-brand-dark
+) {
+    $_: contrast-check($color, contrast-color($color), 7);
+}
