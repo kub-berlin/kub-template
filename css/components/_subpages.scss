@@ -45,3 +45,9 @@
         }
     }
 }
+
+// There is a weird bug that the category module of an article will also show
+// on the search page if you enter a searchterm on the article page
+.search + .category-module {
+    display: none;
+}
