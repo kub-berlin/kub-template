@@ -44,8 +44,8 @@ $doc->addStyleSheet("$templateUrl/css/kub.css");
             <a href="<?php e($this->baseurl); ?>" class="brand-link">
                 <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" role="banner"/>
             </a>
-            <?php jdocIncludeModules('header-side') ?>
-            <?php jdocIncludeModules('header-bottom') ?>
+            <?php kub_module('header-side'); ?>
+            <?php kub_module('header-bottom'); ?>
         </header>
         <nav id="nav">
             <?php jdocIncludeModules('navigation') ?>
@@ -55,8 +55,6 @@ $doc->addStyleSheet("$templateUrl/css/kub.css");
         <main id="main">
             <h1><?php e($this->error->getCode()); ?> - <?php e(JText::_($this->error->getMessage())); ?></h1>
         </main>
-        <aside id="aside">
-            <?php jdocIncludeModules('aside') ?>
-        </aside>
+        <?php kub_module('aside', 'aside'); ?>
     </div>
 <?php include 'partials/foot.php'; ?>

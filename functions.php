@@ -12,10 +12,13 @@ function jdocIncludeModules($position) {
     }
 }
 
-function kub_module($page, $name, $tag = 'div') {
-    if ($page->countModules($name)) {
+function kub_module($name, $tag = 'div') {
+    ob_start();
+    jdocIncludeModules($name);
+    $modules = ob_get_clean();
+    if ($modules) {
         echo "<$tag id=\"$name\">";
-        jdocIncludeModules($name);
+        echo $modules;
         echo "</$tag>";
     }
 }

@@ -4,15 +4,15 @@
             <a href="<?php e($this->baseurl); ?>" class="brand-link">
                 <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" role="banner"/>
             </a>
-            <?php kub_module($this, 'header-side'); ?>
-            <?php kub_module($this, 'header-bottom'); ?>
+            <?php kub_module('header-side'); ?>
+            <?php kub_module('header-bottom'); ?>
         </header>
         <nav id="nav">
             <jdoc:include type="modules" name="navigation" />
         </nav>
     </div>
 
-    <?php kub_module($this, 'top'); ?>
+    <?php kub_module('top'); ?>
 
     <div id="main-container">
         <nav id="section-nav">
@@ -25,6 +25,6 @@
         </main>
     </div>
 
-    <?php kub_module($this, 'aside', 'aside'); ?>
+    <?php kub_module('aside', 'aside'); ?>
 
 <?php include 'partials/foot.php'; ?>
