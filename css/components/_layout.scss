@@ -21,7 +21,7 @@
     padding: 1em;
 }
 
-@media (min-width: $breakpoint) {
+@media screen and (min-width: $breakpoint) {
     body {
         max-width: 40em * 100% / grid-width(7);
     }

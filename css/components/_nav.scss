@@ -103,7 +103,7 @@
     right: 0.5em;
 }
 
-@media (min-width: $breakpoint) {
+@media screen and (min-width: $breakpoint) {
     .menu-button {
         display: none;
     }
@@ -148,5 +148,11 @@
         position: absolute;
         top: 0.5em;
         right: 0.5em;
+    }
+}
+
+@media print {
+    .menu-button {
+        display: none;
     }
 }
