@@ -15,6 +15,14 @@ See https://docs.joomla.org/J3.x:Installing_a_template
 3.  Once you are finished with a new feature, add the compiled files to the
     repository. Please add the updated CSS files in a separate commit.
 
+# Features
+
+-   Fully responsive.
+-   Left-to-right and right-to-left support.
+-   Decent Accessibility.
+-   [Open graph](http://ogp.me) support.
+-   Written from scratch, so no legacy code.
+
 # Expected Joomla configuration
 
 This template is build for a specific Joomla configuration and may behave in
