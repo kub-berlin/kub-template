@@ -6,11 +6,11 @@
 
 @import "vars";
 @import "helpers";
-@import "components/base";
+@import "../bower_components/mfbs/src/base";
+@import "../bower_components/mfbs/src/form";
 @import "components/layout";
 @import "components/form";
 @import "components/nav";
-@import "components/table";
 @import "components/breadcrumb";
 @import "components/header";
 @import "components/article";

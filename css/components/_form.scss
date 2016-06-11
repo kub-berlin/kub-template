@@ -1,36 +1,4 @@
-select,
-textarea,
-input,
-button {
-    line-height: 1.8;
-    padding: 0 0.75em;
-}
-
-select,
-textarea,
-input {
-    font-family: inherit;
-    border: 1px solid $color-border;
-    border-radius: 0.2em;
-    background-color: $color-bg-tint;
-    color: $color-fg;
-}
-
-button,
-input[type=submit] {
-    border: 1px solid $color-link;
-    background: $color-link;
-    color: contrast-color($color-link);
-
-    &:hover, &:focus {
-        border-color: $color-link-focus;
-        background: $color-link-focus;
-        color: contrast-color($color-link-focus);
-    }
-}
-
 fieldset {
-    margin-bottom: 1.5em;
     padding: 0;
     border: 0;
 }
@@ -45,4 +13,11 @@ fieldset {
     .btn-group {
         display: inline-block;
     }
+}
+
+input,
+button,
+textarea,
+select {
+    line-height: normal;
 }
