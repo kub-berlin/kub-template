@@ -5,3 +5,7 @@ css/kub-rtl.css: css/kub-ltr.css
 css/kub-ltr.css: css/kub.scss css/_*.scss css/components/_*.scss
 	node-sass --output-style compressed --source-map css/kub-ltr.css.map -o css $<
 	mv css/kub.css $@
+
+clean:
+	rm -f css/kub-rtl.css
+	rm -f css/kub-ltr.css
