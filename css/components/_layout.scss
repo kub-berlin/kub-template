@@ -23,7 +23,7 @@
 
 @media screen and (min-width: $breakpoint) {
     body {
-        max-width: 40em * 100% / grid-width(7);
+        max-width: 40em * 12 / 7;
     }
 
     #main-container {
@@ -31,9 +31,9 @@
         word-wrap: break-word;
     }
     #section-nav {
-        @include grid-cell(3, 0);
+        @include grid-span(3, 0);
     }
     #main {
-        @include grid-cell(7, 3);
+        @include grid-span(7, 3);
     }
 }

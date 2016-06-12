@@ -117,26 +117,12 @@
         }
 
         li {
+            @include grid-same-width(5, ('gutter': 1px, 'gutter-fallback': 0.2%));
             text-align: center;
-            position: relative;
-            float: left;
-            left: 100%;
-            width: grid-width(1, 5, 0.2%);
-
-            @for $i from 1 through 5 {
-                &:nth-child(#{$i}) {
-                    margin-left: -100% + grid-width($i - 1, 5, 0.2%) + 0.2%;
-                }
-            }
         }
 
         .nav > li.active > a {
             @include nav-color($color-brand-dark, $color-brand-dark);
-        }
-
-        // reset
-        > ul > li, a {
-            margin: 0;
         }
     }
 

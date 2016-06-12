@@ -16,12 +16,7 @@
             margin-bottom: 1em;
 
             @media screen and (min-width: $breakpoint) {
-                float: left;
-                width: 49%;
-
-                &:nth-child(2n + 1) {
-                    margin-right: 2%;
-                }
+                @include grid-same-width(2);
             }
         }
 
