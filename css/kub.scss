@@ -34,3 +34,12 @@ body {
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
 }
+
+// error message for cloaked email addresses in italics
+[id^=cloak] {
+    font-style: italic;
+
+    a {
+        font-style: normal;
+    }
+}
