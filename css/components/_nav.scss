@@ -39,7 +39,7 @@
     }
 
     ul ul {
-        text-indent: 2em;
+        text-indent: $indentation;
         font-size: (100% / 1.1);
     }
 
@@ -85,7 +85,7 @@
     }
 
     ul ul ul a {
-        padding-left: 2em;
+        padding-left: $indentation;
     }
 
     ul ul ul ul {
@@ -99,8 +99,8 @@
 
 .menu-button {
     position: absolute;
-    top: 0.5em;
-    right: 0.5em;
+    top: $padding;
+    right: $padding;
 }
 
 @media screen and (min-width: $breakpoint) {
@@ -117,7 +117,7 @@
         }
 
         li {
-            @include grid-same-width(5, ('gutter': 1px, 'gutter-fallback': 0.2%));
+            @include grid-same-width(6, ('gutter': 1px, 'gutter-fallback': 0.2%));
             text-align: center;
         }
 
@@ -132,8 +132,8 @@
 
     #search {
         position: absolute;
-        top: 0.5em;
-        right: 0.5em;
+        top: $padding;
+        right: $padding;
     }
 }
 

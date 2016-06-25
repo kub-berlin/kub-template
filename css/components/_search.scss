@@ -40,11 +40,11 @@
     list-style: none;
 
     li {
-        margin-bottom: 2em;
+        margin-bottom: 2 * $spacer;
 
         &:not(:last-child) {
             border-bottom: 1px solid $color-border;
-            padding-bottom: 2em;
+            padding-bottom: 2 * $spacer;
         }
     }
 

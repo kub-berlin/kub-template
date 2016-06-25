@@ -8,7 +8,7 @@ fieldset {
 }
 
 .btn-toolbar {
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5 * $spacer;
 
     .btn-group {
         display: inline-block;
