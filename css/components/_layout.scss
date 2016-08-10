@@ -4,12 +4,6 @@
 #aside,
 #footer {
     background: $color-bg;
-}
-
-#main-container,
-#top,
-#aside,
-#footer {
     margin-bottom: 1.5em;
 }
 
@@ -38,6 +32,9 @@ body {
         max-width: 40em * 12 / 7;
     }
 
+    #header-container {
+        margin-bottom: 0;  // nav takes role of separator
+    }
     #main-container {
         overflow: hidden;  // clearfix
         word-wrap: break-word;
