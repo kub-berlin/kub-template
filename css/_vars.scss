@@ -1,6 +1,6 @@
 $color-fg: #111;
 
-@function mix-lightness($a, $b, $x: 5) {
+@function mix-lightness($a, $b) {
     @return ($a + $b) / 2;
 }
 
