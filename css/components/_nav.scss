@@ -12,10 +12,19 @@
     font-size: 110%;
     clear: both;
 
-    display: none;
+    // It is only possible to transition from one fixed value to another.  So
+    // we can not do a transition based on height as it is set to `auto`.  We
+    // can however do a transition on max-height between 0 and an overly large
+    // value.  The timing functions are chosen in a way that they are faster to
+    // the end, making up for the distance between max-height and actual
+    // height.
+    max-height: 0;
+    overflow-y: hidden;
+    transition: max-height 0.4s ease-out;
 
     &.is-visible {
-        display: block;
+        max-height: 100em;
+        transition-timing-function: ease-in;
     }
 
     ul {
@@ -109,7 +118,7 @@
     }
 
     #nav {
-        display: block !important;
+        max-height: none !important;
         overflow-x: hidden;  // clearfix
 
         ul ul {
