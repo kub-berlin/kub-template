@@ -46,3 +46,9 @@ body {
         @include grid-span(7, 3);
     }
 }
+
+@media print {
+    body {
+        max-width: none;
+    }
+}
