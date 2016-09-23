@@ -5,10 +5,10 @@
 @import "../bower_components/sass-planifolia/sass/color";
 @import "../bower_components/sass-planifolia/sass/grid";
 
-@import "../bower_components/mfbs/src/variables";
+@import "../bower_components/mfbs/sass/variables";
 @import "vars";
-@import "../bower_components/mfbs/src/base";
-@import "../bower_components/mfbs/src/form";
+@import "../bower_components/mfbs/sass/base";
+@import "../bower_components/mfbs/sass/form";
 @import "components/layout";
 @import "components/form";
 @import "components/nav";
