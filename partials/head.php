@@ -38,4 +38,4 @@ kub_opengraph($this);
     <![endif]-->
 </head>
 <body>
-    <a href="#main" tabindex="1" class="accessibility-aid">Skip to content</a>
+    <a href="#main" tabindex="0" class="accessibility-aid">Skip to content</a>
