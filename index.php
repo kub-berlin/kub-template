@@ -15,14 +15,22 @@
     <?php kub_module('top'); ?>
 
     <div id="main-container">
-        <nav id="section-nav">
-            <jdoc:include type="modules" name="navigation" />
-        </nav>
-        <main id="main">
-            <jdoc:include type="message" />
-            <jdoc:include type="component" />
-            <jdoc:include type="modules" name="main-bottom" />
-        </main>
+        <?php if ($this->countModules( 'home' )) : ?>
+            <main id="main">
+                <jdoc:include type="message" />
+                <jdoc:include type="modules" name="home" />
+                <jdoc:include type="modules" name="main-bottom" />
+            </main>
+        <?php else : ?>
+            <nav id="section-nav">
+                <jdoc:include type="modules" name="navigation" />
+            </nav>
+            <main id="main" class="m-sidenav">
+                <jdoc:include type="message" />
+                <jdoc:include type="component" />
+                <jdoc:include type="modules" name="main-bottom" />
+            </main>
+        <?php endif; ?>
     </div>
 
     <?php kub_module('aside', 'aside'); ?>
