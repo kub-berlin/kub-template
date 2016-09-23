@@ -19,6 +19,7 @@ $this->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
 $this->addStyleSheet("$templateUrl/bower_components/normalize-css/normalize.css");
 $this->addStyleSheet("$templateUrl/css/kub-$dir.css");
 $this->addScript("$templateUrl/js/nav.js");
+$this->addScript("$templateUrl/js/table.js");
 
 kub_opengraph($this);
 
