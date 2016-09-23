@@ -26,6 +26,8 @@ $grey2: #444;
 $grey3: #ccc;
 
 $breakpoint: 50em;
+$indentation: 1.5rem;
+@include grid-set('gutter', 2rem);
 
 @each $color in (
     $color-bg,
