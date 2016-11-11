@@ -6,7 +6,7 @@ window.addEventListener('load', function() {
     wrapper.innerHTML = '<a class="menu-button button m-round" href="#"></a>';
 
     var menuButton = wrapper.children[0];
-    menuButton.innerHTML = '<i class="burger-icon"></i>';
+    menuButton.innerHTML = '<i class="icon-menu"></i>';
 
     menuButton.addEventListener('click', function(event) {
         event.preventDefault();
