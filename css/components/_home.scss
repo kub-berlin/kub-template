@@ -7,10 +7,16 @@
     }
     .homeRow-about {
         @include grid-span(5, 3);
-        text-align: justify;
-        hyphens: auto;
     }
     .homeRow-map {
         @include grid-span(4, 8);
+    }
+}
+
+.homeRow-address {
+    font-size: 80%;
+
+    address {
+        font-style: normal;
     }
 }
