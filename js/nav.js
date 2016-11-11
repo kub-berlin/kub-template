@@ -3,7 +3,7 @@ window.addEventListener('load', function() {
     var nav = document.getElementById('nav');
 
     var wrapper = document.createElement('div');
-    wrapper.innerHTML = '<a class="menu-button" href="#"></a>';
+    wrapper.innerHTML = '<a class="menu-button button m-round" href="#"></a>';
 
     var menuButton = wrapper.children[0];
     menuButton.innerHTML = '<i class="burger-icon"></i>';

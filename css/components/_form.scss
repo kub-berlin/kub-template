@@ -21,3 +21,9 @@ textarea,
 select {
     line-height: normal;
 }
+
+.button.m-round {
+    min-width: 1.8em + 2 * 0.3em;
+    border-radius: 50%;
+    padding: 0.3em;
+}
