@@ -27,6 +27,7 @@ unexpected ways if you divert to far from these setting:
 
 -   search
     -   A simple search module should go into the `search` position.
+    -   A lanternfish language switcher may also go into the `search` position.
     -   In the global search settings, disable as much as possible.
 -   header-bottom
     -   An address (custom HTML module with an `<adress>` tag) should go into
