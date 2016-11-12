@@ -21,7 +21,6 @@ function setKubHead() {
     $doc->_style = Array();
     $doc->_styleSheets = Array();
 
-    $doc->setTitle("$sitename - {$doc->getTitle()}");
     $doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
     $doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
     $doc->addStyleSheet("$templateUrl/bower_components/normalize-css/normalize.css");
