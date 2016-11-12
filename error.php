@@ -11,6 +11,7 @@ $doc = JFactory::getDocument();
 $sitename = $config->get('sitename');
 $templateUrl = "{$this->baseurl}/templates/{$this->template}";
 $templatePath = JPATH_BASE . "/templates/{$this->template}";
+$dir = $doc->direction;
 
 include_once "$templatePath/functions.php";
 
@@ -21,7 +22,7 @@ $doc->_scripts = Array();
 $doc->setTitle($this->error->getCode() . ' - ' . $this->error->getMessage());
 $doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
 $doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
-$doc->addStyleSheet("$templateUrl/css/kub.css");
+$doc->addStyleSheet("$templateUrl/css/kub-$dir.css");
 
 ?>
 <!DOCTYPE html>
