@@ -39,6 +39,10 @@
     }
     .form-limit {
         text-align: right;
+
+        label {
+            display: inline;
+        }
     }
 
     .phrases {
