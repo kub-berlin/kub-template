@@ -30,9 +30,8 @@
                 <jdoc:include type="component" />
                 <jdoc:include type="modules" name="main-bottom" />
             </main>
+            <?php kub_module('aside', 'aside'); ?>
         <?php endif; ?>
     </div>
-
-    <?php kub_module('aside', 'aside'); ?>
 
 <?php include 'partials/foot.php'; ?>

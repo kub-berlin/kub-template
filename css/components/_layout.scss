@@ -1,7 +1,6 @@
 #header-container,
 #main-container,
 #top,
-#aside,
 #footer {
     background: $color-bg;
     margin-bottom: 1.5em;
@@ -10,7 +9,6 @@
 #header,
 #main,
 #top,
-#aside,
 #footer {
     padding: 1em;
 }
@@ -44,6 +42,9 @@ body {
     }
     #main.m-sidenav {
         @include grid-span(7, 3);
+    }
+    #aside {
+        @include grid-span(2, 10);
     }
 }
 
