@@ -1,14 +1,14 @@
 $color-fg: #111;
 
-@function mix-lightness($a, $b) {
-    @return ($a + $b) / 2;
+@function mix-lightness($a, $b, $f: 0.5) {
+    @return $f * $a + (1 - $f) * $b;
 }
 
 $hue: pf-hue(#67999A);
-$lightness: 34;
+$lightness: 35;
 
 $color-brand: lch($lightness, 27.4, $hue);
-$color-brand-light: lch(mix-lightness($lightness, pf-lightness($color-bg)), 13.5, $hue);
+$color-brand-light: lch(mix-lightness($lightness, pf-lightness($color-bg), 0.3), 13.5, $hue);
 $color-brand-dark: lch(mix-lightness($lightness, pf-lightness($color-fg)), 26.6, $hue);
 
 $color-bg-tint: #f8f8f8;
