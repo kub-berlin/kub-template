@@ -40,5 +40,5 @@ unexpected ways if you divert to far from these setting:
         `main-bottom` position. Use the default settings for that module, i.e.
         do not display anything other than the title.
 -   article
-    -   In the global article settings, disable showing category, author and
-        icons.
+    -   In the global article settings, disable showing category, creation date,
+        author and icons.
