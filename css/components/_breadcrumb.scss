@@ -3,6 +3,16 @@
     padding: 0;
     margin: 0;
 
+    .divider {
+        img {
+            display: none;
+        }
+
+        &::after {
+            content: '—';
+        }
+    }
+
     li {
         display: inline-block;
     }
