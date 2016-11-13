@@ -1,5 +1,3 @@
-@import "burger";
-
 @import "../bower_components/sass-planifolia/sass/math";
 @import "../bower_components/sass-planifolia/sass/contrast";
 @import "../bower_components/sass-planifolia/sass/color";
@@ -22,6 +20,7 @@
 @import "components/table";
 @import "components/home";
 @import "components/shortcuts";
+@import "components/burger.scss";
 
 html {
     background-color: $color-brand;
