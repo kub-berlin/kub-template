@@ -40,6 +40,11 @@ unexpected ways if you divert to far from these setting:
         same name. Then add a category module to the article in the
         `main-bottom` position. Use the default settings for that module, i.e.
         do not display anything other than the title.
+-   shortcuts
+    -   Another menu should go to the `top` position.
+    -   It should have exactly 6 entries.
+    -   Each entry should have a link image and all images should have the same
+        size.
 -   article
     -   In the global article settings, disable showing category, creation date,
         author and icons.
