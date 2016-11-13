@@ -22,7 +22,10 @@ $doc->_scripts = Array();
 $doc->setTitle($this->error->getCode() . ' - ' . $this->error->getMessage());
 $doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
 $doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
+$doc->addStyleSheet("$templateUrl/bower_components/normalize-css/normalize.css");
 $doc->addStyleSheet("$templateUrl/css/kub-$dir.css");
+$doc->addScript("$templateUrl/js/nav.js");
+$doc->addScript("$templateUrl/js/table.js");
 
 ?>
 <!DOCTYPE html>
@@ -45,16 +48,19 @@ $doc->addStyleSheet("$templateUrl/css/kub-$dir.css");
             <a href="<?php e($this->baseurl); ?>" class="brand-link">
                 <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" role="banner"/>
             </a>
-            <?php kub_module('header-side'); ?>
             <?php kub_module('header-bottom'); ?>
         </header>
         <nav id="nav">
+            <?php kub_module('search'); ?>
             <?php jdocIncludeModules('navigation') ?>
         </nav>
     </div>
     <div id="main-container">
-        <main id="main">
-            <h1><?php e($this->error->getCode()); ?> - <?php e(JText::_($this->error->getMessage())); ?></h1>
+        <main id="main" class="m-sidenav">
+            <div class="page-header">
+                <h2><?php e($this->error->getCode()); ?> - <?php e(JText::_($this->error->getMessage())); ?></h2>
+            </div>
+            <?php kub_module('error'); ?>
         </main>
         <?php kub_module('aside', 'aside'); ?>
     </div>
