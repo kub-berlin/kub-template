@@ -26,6 +26,10 @@
 html {
     background-color: $color-brand;
     line-height: 1.5;
+
+    @media print {
+        background-color: white;
+    }
 }
 
 .accessibility-aid {

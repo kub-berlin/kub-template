@@ -19,5 +19,9 @@
         li {
             display: inline-block;
         }
+
+        @media print {
+            display: none;
+        }
     }
 }

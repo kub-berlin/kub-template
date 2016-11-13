@@ -29,7 +29,7 @@
         }
     }
 
-    @media (min-width: $breakpoint) {
+    @media print, (min-width: $breakpoint) {
         li {
             @include grid-same-width(6, ('gutter': 4%));
         }
