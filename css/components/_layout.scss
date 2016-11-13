@@ -27,6 +27,13 @@ body {
 }
 
 @media screen and (min-width: $breakpoint) {
+    #header,
+    #main-container,
+    #top,
+    #footer {
+        box-shadow: 0 0 2em rgba(black, 0.5);
+    }
+
     body {
         max-width: 40em * 12 / 7;
     }

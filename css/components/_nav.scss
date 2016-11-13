@@ -123,6 +123,11 @@
         max-height: none !important;
         overflow-x: hidden;  // clearfix
 
+        a,
+        > ul > li {
+            margin-bottom: 0;
+        }
+
         ul ul {
             display: none;
         }
