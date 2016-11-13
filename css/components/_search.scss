@@ -21,6 +21,8 @@
 }
 
 #searchForm {
+    overflow: hidden;  // clearfix
+
     // full width searchword
     .btn-toolbar {
         display: flex;
