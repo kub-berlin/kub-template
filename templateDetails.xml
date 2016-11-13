@@ -22,7 +22,8 @@
         <position>top</position>
         <position>aside</position>
         <position>navigation</position>
-        <position>footer</position>
+        <position>footer1</position>
+        <position>footer2</position>
         <position>home</position>
     </positions>
 </extension>
