@@ -26,5 +26,6 @@
         <position>footer2</position>
         <position>home</position>
         <position>error</position>
+        <position>article-top</position>
     </positions>
 </extension>

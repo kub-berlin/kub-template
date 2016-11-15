@@ -1,0 +1,17 @@
+.moduletable.infobox {
+    border: 0.2em solid $color-brand;
+    background: mix($color-bg-tint, $color-brand-light);
+    padding: 1em;
+
+    h3:first-child {
+        margin-top: 0;
+    }
+
+    img {
+        float: right;
+        width: 8em;
+        margin-left: 0.5em;
+        margin-bottom: 0.5em;
+        shape-outside: circle();
+    }
+}

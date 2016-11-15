@@ -48,3 +48,7 @@ unexpected ways if you divert to far from these setting:
 -   article
     -   In the global article settings, disable showing category, creation date,
         author and icons.
+    -   You can include an infobox in your article by adding `{loadposition
+        article-top}`. After that you can create a custom module with the module
+        class suffix ` infobox` (mind the leading space!) and assign it to the
+        `article-top` position on this page.
