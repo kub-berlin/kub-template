@@ -2,7 +2,7 @@
     <div id="header-container">
         <header id="header">
             <a href="<?php e($this->baseurl); ?>" class="brand-link">
-                <img alt="<?php e($sitename); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" role="banner"/>
+                <img alt="<?php e(JFactory::getConfig()->get('sitename')); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" />
             </a>
             <?php kub_module('header-bottom'); ?>
         </header>
