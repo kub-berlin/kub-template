@@ -2,6 +2,7 @@
     border: 0.2em solid $color-brand;
     background: mix($color-bg-tint, $color-brand-light);
     padding: 1em;
+    overflow: hidden;  // clearfix
 
     h3:first-child {
         margin-top: 0;
