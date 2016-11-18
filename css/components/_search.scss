@@ -32,10 +32,6 @@
             flex: auto;
         }
     }
-    #search-searchword {
-        width: 99%;
-    }
-
     // .searchintro and .form-limit on one line
     .searchintro {
         float: left;
@@ -51,6 +47,10 @@
     .phrases {
         display: none;
     }
+}
+
+#search-searchword {
+    width: 99%;
 }
 
 .search-results {
