@@ -22,7 +22,7 @@
 }
 
 #searchForm {
-    overflow: hidden;  // clearfix
+    @include clearfix;
 
     // full width searchword
     .btn-toolbar {

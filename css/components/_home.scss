@@ -1,6 +1,6 @@
 @media screen and (min-width: $breakpoint) {
     .homeRow {
-        overflow: hidden;  // clearfix
+        @include clearfix;
     }
     .homeRow-address {
         @include grid-span(3, 0);

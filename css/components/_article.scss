@@ -50,7 +50,7 @@
 
     // 2-column layout
     @media (min-width: $breakpoint) {
-        overflow: hidden;  // clearfix
+        @include clearfix;
 
         .span6 {
             @include grid-width(6);

@@ -42,7 +42,7 @@ body {
         margin-bottom: 0;  // nav takes role of separator
     }
     #main-container {
-        overflow: hidden;  // clearfix
+        @include clearfix;
         word-wrap: break-word;
     }
     #section-nav {
