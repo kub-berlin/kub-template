@@ -9,5 +9,10 @@
 }
 
 table {
+    width: 100%;
     font-size: 80%;
+}
+
+tr:nth-child(even) td {
+    background-color: $color-bg-tint;
 }
