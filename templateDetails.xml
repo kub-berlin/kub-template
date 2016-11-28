@@ -27,5 +27,6 @@
         <position>home</position>
         <position>error</position>
         <position>article-top</position>
+        <position>article-bottom</position>
     </positions>
 </extension>
