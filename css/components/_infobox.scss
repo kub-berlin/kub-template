@@ -1,7 +1,7 @@
 .moduletable.infobox {
     @include clearfix;
     border: 0.2em solid $color-brand;
-    background: mix($color-bg-tint, $color-brand-light);
+    background: $color-bg-tint;
     padding: 1em;
 
     h3:first-child {

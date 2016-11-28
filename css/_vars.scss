@@ -11,7 +11,7 @@ $color-brand: lch($lightness, 27.4, $hue);
 $color-brand-light: lch(mix-lightness($lightness, pf-lightness($color-bg), 0.3), 13.5, $hue);
 $color-brand-dark: lch(mix-lightness($lightness, pf-lightness($color-fg)), 26.6, $hue);
 
-$color-bg-tint: #f8f8f8;
+$color-bg-tint: mix(#f8f8f8, $color-brand-light);
 $color-border: $color-fg;
 $color-link: $color-brand;
 $color-link-focus: $color-brand-dark;
