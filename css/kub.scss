@@ -50,3 +50,9 @@ html {
         font-style: normal;
     }
 }
+
+.u-columns {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+}
