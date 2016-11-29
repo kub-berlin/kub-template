@@ -11,13 +11,18 @@
     input {
         display: block;
         width: 100%;
-        box-sizing: border-box;
 
         @media screen and (min-width: $breakpoint) {
             width: auto;
             display: inline-block;
             vertical-align: middle;
         }
+    }
+    select,
+    input {
+        box-sizing: content-box;
+        line-height: 1.4;
+        height: 1.4em;
     }
 }
 
