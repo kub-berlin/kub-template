@@ -48,4 +48,23 @@ function kub_opengraph($document) {
         $document->addCustomTag('<meta property="og:image" content="'.$images[1].'"/>');
     }
 }
+
+function jfGetOtherLanguages() {
+    // inspired by modules/mod_jflanguageselection
+    $jfManager = JoomFishManager::getInstance();
+    $jfrouter = JFRoute::getInstance();
+
+    $curLangSEF = JFactory::getLanguage()->getTag();
+
+    $languages = array();
+
+    foreach ($jfManager->getActiveLanguages(true) as $lang) {
+        if ($lang->lang_code != $curLangSEF) {
+            $code = $lang->getLanguageCode();
+            $languages[$code] = $jfrouter->rerouteCurrentUrl($code);
+        }
+    }
+
+    return $languages;
+}
 ?>
