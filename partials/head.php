@@ -31,6 +31,25 @@ function setKubHead() {
     kub_opengraph($doc);
 }
 
+function jfGetOtherLanguages() {
+    // inspired by modules/mod_jflanguageselection
+    $jfManager = JoomFishManager::getInstance();
+    $jfrouter = JFRoute::getInstance();
+
+    $curLangSEF = JFactory::getLanguage()->getTag();
+
+    $languages = array();
+
+    foreach ($jfManager->getActiveLanguages(true) as $lang) {
+        if ($lang->lang_code != $curLangSEF) {
+            $code = $lang->getLanguageCode();
+            $languages[$code] = $jfrouter->rerouteCurrentUrl($code);
+        }
+    }
+
+    return $languages;
+}
+
 $app->registerEvent('onBeforeCompileHead', 'setKubHead');
 
 ?>
@@ -47,6 +66,10 @@ $app->registerEvent('onBeforeCompileHead', 'setKubHead');
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+<?php foreach (jfGetOtherLanguages() as $code => $href): ?>
+    <link href="<?php e($href)?>" hreflang="<?php e($code)?>" rel="<?php e($code == 'de' ? 'canonical' : 'alternate')?>" />
+<?php endforeach ?>
 </head>
 <body>
     <a href="#main" tabindex="0" class="accessibility-aid">Skip to content</a>
