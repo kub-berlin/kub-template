@@ -1,7 +1,7 @@
 <?php include 'partials/head.php'; ?>
     <div id="header-container">
         <header id="header">
-            <a href="<?php e($this->baseurl); ?>" class="brand-link" rel="home">
+            <a href="<?php e(jfGetHome()); ?>" class="brand-link" rel="home">
                 <img alt="<?php e(JFactory::getConfig()->get('sitename')); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" />
             </a>
             <?php kub_module('header-bottom'); ?>

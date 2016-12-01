@@ -77,4 +77,8 @@ function jfGetOtherLanguages() {
 
     return $languages;
 }
+
+function jfGetHome() {
+    return JURI::base().jfGetCurrentLanguage()->getLanguageCode();
+}
 ?>
