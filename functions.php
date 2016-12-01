@@ -38,7 +38,7 @@ function kub_opengraph($document) {
 
     $document->addCustomTag('<meta property="og:title" content="'.$title.'"/>');
     $document->addCustomTag('<meta property="og:site_name" content="'.$siteName.'"/>');
-    $document->addCustomTag('<meta property="og:description" content="'.$desc.'"/>');
+    if ($desc) $document->addCustomTag('<meta property="og:description" content="'.$desc.'"/>');
 
     preg_match('/src=[\\"\']([-0-9A-Za-z\/_]*.(jpg|png|gif|jpeg))/i', $article_title->fulltext, $images);
     if (array_key_exists(1, $images)) {
@@ -49,17 +49,27 @@ function kub_opengraph($document) {
     }
 }
 
+function jfGetCurrentLanguage() {
+    $jfManager = JoomFishManager::getInstance();
+    $curLangSEF = JFactory::getLanguage()->getTag();
+
+    foreach ($jfManager->getActiveLanguages(true) as $lang) {
+        if ($lang->lang_code == $curLangSEF) {
+            return $lang;
+        }
+    }
+}
+
 function jfGetOtherLanguages() {
     // inspired by modules/mod_jflanguageselection
     $jfManager = JoomFishManager::getInstance();
     $jfrouter = JFRoute::getInstance();
-
-    $curLangSEF = JFactory::getLanguage()->getTag();
+    $curLang = jfGetCurrentLanguage();
 
     $languages = array();
 
     foreach ($jfManager->getActiveLanguages(true) as $lang) {
-        if ($lang->lang_code != $curLangSEF) {
+        if ($lang->lang_code != $curLang->lang_code) {
             $code = $lang->getLanguageCode();
             $languages[$code] = $jfrouter->rerouteCurrentUrl($code);
         }

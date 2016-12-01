@@ -9,9 +9,7 @@ include_once "$templatePath/functions.php";
 
 function setKubHead() {
     $doc = JFactory::getDocument();
-    $config = JFactory::getConfig();
 
-    $sitename = $config->get('sitename');
     $templateUrl = "{$doc->baseurl}/templates/{$doc->template}";
     $dir = $doc->direction;
 
