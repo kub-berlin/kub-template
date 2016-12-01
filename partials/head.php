@@ -25,6 +25,7 @@ function setKubHead() {
     $doc->addStyleSheet("$templateUrl/css/kub-$dir.css");
     $doc->addScript("$templateUrl/js/nav.js");
     $doc->addScript("$templateUrl/js/table.js");
+    $doc->addScript("$templateUrl/js/accordion.js");
 
     kub_opengraph($doc);
 }

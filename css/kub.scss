@@ -56,3 +56,13 @@ html {
     -moz-columns: 2;
     columns: 2;
 }
+
+summary {
+    @extend h3;
+
+    h3 {
+        display: inline;
+        margin: 0;
+        font-size: inherit;
+    }
+}
