@@ -62,16 +62,16 @@ function kub_opengraph($doc) {
         $desc = $doc->getMetaData('description');
     }
 
-    $doc->addCustomTag('<meta property="og:title" content="'.$title.'"/>');
-    $doc->addCustomTag('<meta property="og:site_name" content="'.$siteName.'"/>');
-    if ($desc) $doc->addCustomTag('<meta property="og:description" content="'.$desc.'"/>');
+    $doc->addCustomTag('<meta property="og:title" content="'.htmlspecialchars($title).'"/>');
+    $doc->addCustomTag('<meta property="og:site_name" content="'.htmlspecialchars($siteName).'"/>');
+    if ($desc) $doc->addCustomTag('<meta property="og:description" content="'.htmlspecialchars($desc).'"/>');
 
     preg_match('/src=[\\"\']([-0-9A-Za-z\/_]*.(jpg|png|gif|jpeg))/i', $article_title->fulltext, $images);
     if (array_key_exists(1, $images)) {
         if (substr($images[1], 0, 4) != 'http') {
             $images[1] = JURI::base().$images[1];
         }
-        $doc->addCustomTag('<meta property="og:image" content="'.$images[1].'"/>');
+        $doc->addCustomTag('<meta property="og:image" content="'.htmlspecialchars($images[1]).'"/>');
     }
 }
 
