@@ -23,7 +23,7 @@ function kub_module($name, $tag = 'div') {
     }
 }
 
-function kub_opengraph($document) {
+function kub_opengraph($doc) {
     $app = JFactory::getApplication();
     $article_title = JTable::getInstance('content');
     $article_title->load(JRequest::getInt('id'));
@@ -33,19 +33,19 @@ function kub_opengraph($document) {
 
     $desc = $article_title->get('metadesc');
     if (empty($desc)) {
-        $desc = $document->getMetaData('description');
+        $desc = $doc->getMetaData('description');
     }
 
-    $document->addCustomTag('<meta property="og:title" content="'.$title.'"/>');
-    $document->addCustomTag('<meta property="og:site_name" content="'.$siteName.'"/>');
-    if ($desc) $document->addCustomTag('<meta property="og:description" content="'.$desc.'"/>');
+    $doc->addCustomTag('<meta property="og:title" content="'.$title.'"/>');
+    $doc->addCustomTag('<meta property="og:site_name" content="'.$siteName.'"/>');
+    if ($desc) $doc->addCustomTag('<meta property="og:description" content="'.$desc.'"/>');
 
     preg_match('/src=[\\"\']([-0-9A-Za-z\/_]*.(jpg|png|gif|jpeg))/i', $article_title->fulltext, $images);
     if (array_key_exists(1, $images)) {
         if (substr($images[1], 0, 4) != 'http') {
             $images[1] = JURI::base().$images[1];
         }
-        $document->addCustomTag('<meta property="og:image" content="'.$images[1].'"/>');
+        $doc->addCustomTag('<meta property="og:image" content="'.$images[1].'"/>');
     }
 }
 

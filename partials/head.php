@@ -2,8 +2,9 @@
 defined('_JEXEC') or die;
 
 $app = JFactory::getApplication();
-$templatePath = JPATH_BASE . "/templates/{$this->template}";
-$dir = $this->direction;
+$doc = JFactory::getDocument();
+$templatePath = JPATH_BASE . "/templates/{$doc->template}";
+$dir = $doc->direction;
 
 include_once "$templatePath/functions.php";
 
@@ -36,8 +37,8 @@ $app->registerEvent('onBeforeCompileHead', 'setKubHead');
 <!DOCTYPE html>
 <html
     xmlns="http://www.w3.org/1999/xhtml"
-    xml:lang="<?php e($this->language); ?>"
-    lang="<?php e($this->language); ?>"
+    xml:lang="<?php e($doc->language); ?>"
+    lang="<?php e($doc->language); ?>"
     dir="<?php e($dir); ?>"
     prefix="s: http://schema.org/ og: http://ogp.me/ns#">
 <head>

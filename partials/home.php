@@ -4,7 +4,7 @@
     </div>
     <div class="homeRow-map" property="location" typeof="place">
         <a href="https://www.openstreetmap.org/node/874357616" property="hasMap" rel="external" target="_blank">
-            <img src="<?php e($this->baseurl); ?>/templates/kub/images/stadtplan.svg" alt="Stadtplan" />
+            <img src="<?php e($doc->baseurl); ?>/templates/kub/images/stadtplan.svg" alt="Stadtplan" />
         </a>
         <div property="geo" typeof="GeoCoordinates">
             <meta property="latitude" content="52.5026297" />
