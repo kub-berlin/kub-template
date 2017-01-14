@@ -1,26 +1,39 @@
-@media screen and (min-width: $breakpoint) {
-    .homeRow {
-        @include clearfix;
-    }
-    .homeRow-address {
-        @include grid-span(3, 0);
-        box-sizing: content-box;
-        padding-right: (_grid-get('gutter') / 2);
-        border-right: 1px solid $color-brand;
-    }
-    .homeRow-about {
-        @include grid-span(4.5, 3);
-    }
-    .homeRow-map {
-        @include grid-span(4.5, 7.5);
-    }
-}
-
 .homeRow-address {
-    font-size: 80%;
     font-style: normal;
 }
 
 .homeRow-map img {
     border: 0.5em solid $color-brand;
+}
+
+@media screen and (min-width: $breakpoint) {
+    .homeRow-map {
+        float: right;
+        max-width: 50%;
+    }
+}
+
+.homeRow {
+    .homeRow-address {
+        font-size: 80%;
+    }
+
+    @media screen and (min-width: $breakpoint) {
+        @include clearfix;
+
+        .homeRow-address {
+            @include grid-span(3, 0);
+            box-sizing: content-box;
+            padding-right: (_grid-get('gutter') / 2);
+            border-right: 1px solid $color-brand;
+        }
+        .homeRow-about {
+            @include grid-span(4.5, 3);
+        }
+        .homeRow-map {
+            float: none;
+            max-width: none;
+            @include grid-span(4.5, 7.5);
+        }
+    }
 }

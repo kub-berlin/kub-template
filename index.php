@@ -18,7 +18,9 @@
         <?php if ($this->countModules( 'home' )) : ?>
             <main id="main">
                 <jdoc:include type="message" />
-                <?php include('partials/home.php'); ?>
+                <div class="homeRow">
+                    <?php include('partials/home.php'); ?>
+                </div>
                 <jdoc:include type="modules" name="main-bottom" />
             </main>
         <?php else : ?>
@@ -27,7 +29,7 @@
             </nav>
             <main id="main" class="m-sidenav">
                 <jdoc:include type="message" />
-                <jdoc:include type="component" />
+                <?php kub_component(); ?>
                 <jdoc:include type="modules" name="main-bottom" />
             </main>
             <?php kub_module('aside', 'aside'); ?>

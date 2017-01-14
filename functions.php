@@ -23,6 +23,22 @@ function kub_module($name, $tag = 'div') {
     }
 }
 
+function kub_component() {
+    $doc = JFactory::getDocument();
+    $html = $doc->getBuffer('component', null, array());
+
+    $search = '{loadpartial home}';
+    if (strpos($html, $search)) {
+        ob_start();
+        include('partials/home.php');
+        $home = ob_get_clean();
+
+        $html = str_replace($search, $home, $html);
+    }
+
+    echo $html;
+}
+
 function kub_opengraph($doc) {
     $app = JFactory::getApplication();
     $article_title = JTable::getInstance('content');

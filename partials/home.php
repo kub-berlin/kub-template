@@ -1,7 +1,9 @@
-<div class="homeRow" vocab="http://schema.org/" typeof="NGO" resource="https://kub-berlin.org/#kub">
+<div vocab="http://schema.org/" typeof="NGO" resource="https://kub-berlin.org/#kub">
+    <?php if ($doc->countModules( 'home' )) : ?>
     <div class="homeRow-about" property="description">
         <jdoc:include type="modules" name="home" />
     </div>
+    <?php endif; ?>
     <div class="homeRow-map" property="location" typeof="place">
         <a href="https://www.openstreetmap.org/node/874357616" property="hasMap" rel="external" target="_blank">
             <img src="<?php e($doc->baseurl); ?>/templates/kub/images/stadtplan.svg" alt="Stadtplan" />
