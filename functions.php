@@ -39,6 +39,16 @@ function kub_component() {
     echo $html;
 }
 
+function kub_get_submenu() {
+    $app = JFactory::getApplication();
+    $menu = $app->getMenu();
+    $item = $menu->getActive();
+
+    if (!$item) return array();
+
+    return $menu->getItems('parent_id', $item->id);
+}
+
 function kub_opengraph($doc) {
     $app = JFactory::getApplication();
     $article_title = JTable::getInstance('content');

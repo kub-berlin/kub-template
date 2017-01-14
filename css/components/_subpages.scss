@@ -1,5 +1,5 @@
 @media screen {
-    .category-module {
+    .subpages {
         margin: 0;
         padding: 0;
         list-style: none;
@@ -9,59 +9,59 @@
             display: table;
             clear: both;
         }
+    }
 
-        li {
-            display: table;
-            width: 100%;
-            margin-bottom: $spacer;
-            position: relative;
+    .subpage {
+        display: table;
+        width: 100%;
+        margin-bottom: $spacer;
+        position: relative;
 
-            a::after {
-                content: "";
-                position: absolute;
-                left: 0;
-                right: 0;
-                height: $spacer;
-            }
+        a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: $spacer;
+        }
 
-            &:nth-child(2n+1) a::after {
-                top: 0;
-                background: linear-gradient(to top left, transparent 48%, $color-bg 51%);
-            }
+        &:nth-child(2n+1) a::after {
+            top: 0;
+            background: linear-gradient(to top left, transparent 48%, $color-bg 51%);
+        }
 
-            &:nth-child(2n+2) a::after {
+        &:nth-child(2n+2) a::after {
+            bottom: 0;
+            background: linear-gradient(to bottom right, transparent 48%, $color-bg 51%);
+        }
+
+        &:nth-child(2n+1) {
+            margin-top: -$spacer;
+        }
+
+        @media (min-width: $breakpoint) {
+            margin-top: -$spacer;
+
+            @include grid-same-width(2, ('gutter': $spacer));
+
+            &:nth-child(4n+3) a::after {
                 bottom: 0;
+                top: auto;
                 background: linear-gradient(to bottom right, transparent 48%, $color-bg 51%);
             }
 
-            &:nth-child(2n+1) {
-                margin-top: -$spacer;
+            &:nth-child(4n+4) a::after {
+                top: 0;
+                bottom: auto;
+                background: linear-gradient(to top left, transparent 48%, $color-bg 51%);
             }
 
-            @media (min-width: $breakpoint) {
-                margin-top: -$spacer;
-
-                @include grid-same-width(2, ('gutter': $spacer));
-
-                &:nth-child(4n+3) a::after {
-                    bottom: 0;
-                    top: auto;
-                    background: linear-gradient(to bottom right, transparent 48%, $color-bg 51%);
-                }
-
-                &:nth-child(4n+4) a::after {
-                    top: 0;
-                    bottom: auto;
-                    background: linear-gradient(to top left, transparent 48%, $color-bg 51%);
-                }
-
-                &:nth-child(4n+3) {
-                    margin-top: 0;
-                }
+            &:nth-child(4n+3) {
+                margin-top: 0;
             }
         }
 
-        .mod-articles-category-title {
+        a {
             text-decoration: none;
 
             padding: 1em;
@@ -82,10 +82,4 @@
             }
         }
     }
-}
-
-// There is a weird bug that the category module of an article will also show
-// on the search page if you enter a searchterm on the article page
-.search + .category-module {
-    display: none;
 }

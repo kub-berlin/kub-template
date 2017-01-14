@@ -31,6 +31,12 @@
                 <jdoc:include type="message" />
                 <?php kub_component(); ?>
                 <jdoc:include type="modules" name="main-bottom" />
+
+                <ul class="subpages">
+                <?php foreach (kub_get_submenu() as $item) : ?>
+                    <li class="subpage"><a href="<?php e(JRoute::_('index.php?Itemid=' . $item->id)); ?>"><?php e($item->title); ?></a></li>
+                <?php endforeach ?>
+                </ul>
             </main>
             <?php kub_module('aside', 'aside'); ?>
         <?php endif; ?>
