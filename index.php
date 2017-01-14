@@ -18,7 +18,7 @@
         <?php if ($this->countModules( 'home' )) : ?>
             <main id="main">
                 <jdoc:include type="message" />
-                <jdoc:include type="modules" name="home" />
+                <?php include('partials/home.php'); ?>
                 <jdoc:include type="modules" name="main-bottom" />
             </main>
         <?php else : ?>

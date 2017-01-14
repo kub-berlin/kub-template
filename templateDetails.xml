@@ -15,6 +15,16 @@
         <folder>images</folder>
         <folder>css</folder>
     </files>
+    <languages>
+        <language tag="ar-AA">ar-AA.tpl_kub.ini</language>
+        <language tag="de-DE">de-DE.tpl_kub.ini</language>
+        <language tag="en-GB">en-GB.tpl_kub.ini</language>
+        <language tag="es-ES">es-ES.tpl_kub.ini</language>
+        <language tag="fa-IR">fa-IR.tpl_kub.ini</language>
+        <language tag="fr-FR">fr-FR.tpl_kub.ini</language>
+        <language tag="ru-RU">ru-RU.tpl_kub.ini</language>
+        <language tag="tr-TR">tr-TR.tpl_kub.ini</language>
+    </languages>
     <positions>
         <position>search</position>
         <position>header-bottom</position>
@@ -25,6 +35,7 @@
         <position>footer1</position>
         <position>footer2</position>
         <position>home</position>
+        <position>opening-hours</position>
         <position>error</position>
         <position>article-top</position>
         <position>article-bottom</position>
