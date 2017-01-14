@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1"
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="123 595.2754" i:rulerOrigin="-123 0" i:pageBounds="123 595.2754 718.2754 0"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="595.275px" height="595.275px" viewBox="0 0 595.275 595.275" enable-background="new 0 0 595.275 595.275"
+	 xml:space="preserve">
+<metadata>
+	<variableSets  xmlns="&ns_vars;">
+		<variableSet  locked="none" varSetName="binding1">
+			<variables></variables>
+			<v:sampleDataSets  xmlns:v="&ns_vars;" xmlns="&ns_custom;"></v:sampleDataSets>
+		</variableSet>
+	</variableSets>
+</metadata>
+<symbol  id="Org._Diagramm_-_Verbinder" viewBox="-5.694 -17.641 11.389 35.281">
+	<path i:knockout="Off" fill="#C1001F" d="M0.999,17.641V-8.502c1.848,1.26,3.053,1.887,4.696,1.951
+		C2.862-9.416,1.388-13.142,0-17.641c-1.328,4.499-2.949,8.061-5.695,11.09c1.785-0.193,2.863-0.715,4.828-1.99v26.182H0.999z"/>
+</symbol>
+<g id="Ebene_1" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F008000FFFF">
+	<polygon i:knockout="Off" fill="#937647" points="407.583,230.549 408.442,230.345 409.467,228.043 407.117,228.602 	"/>
+	<polygon i:knockout="Off" fill="#CDA876" points="339.337,314.576 339.506,314.184 339.333,314.574 	"/>
+	<polygon i:knockout="Off" fill="#937647" points="180.807,595.929 185.787,595.929 186.079,595.275 181.087,595.275 	"/>
+	<rect x="472.461" y="595.153" i:knockout="Off" fill="#937647" width="10.011" height="0.122"/>
+	<g>
+		<path i:knockout="Off" fill="#005A5E" d="M223.864,589.534l-4.328-1.927l0.009-0.02l-4.392-1.986l-4.181,9.674h5.144l1.381-3.097
+			l4.3,1.915l-0.542,1.06h2.921h12.42c-0.284-0.097-0.565-0.202-0.842-0.325L223.864,589.534z"/>
+		<path i:knockout="Off" fill="#005A5E" d="M438.359,97.911l156.916,70.062v-5.482L440.334,93.311L480.387,0h-5.446l-39.177,91.27
+			l-24.446-10.915L445.687,0h-5.444l-33.496,78.314l-93.945-41.945L299.068,0h-5.351l14.378,38.078L279.51,94.207L158.393,30.339
+			L171.819,0h-10.947l-48.697,110.042c-2.5-0.791-5.158-1.219-7.915-1.219c-8.497,0-16.061,4.054-20.872,10.324l-33.539-15.735
+			l21.274-56.375L70.87,46.94L31.776,0.021h-2.607l39.616,47.544L53.966,86.832L0,65.091v2.159l53.259,21.456l-5.228,13.853
+			L0,80.025v11.058l78.917,37.023c-0.62,2.236-0.958,4.587-0.958,7.018c0,9.146,4.695,17.212,11.799,21.926L0,340.451v19.704v3.16
+			l33.329-68.189l111.934,53.536L78.201,478.76L0,443.703v5.486l179.219,80.34l-1.656,3.72L0,542.95v10.025l172.987-9.451
+			l-1.722,3.867L0,557.906v10.028l90.777-5.572l3.246,32.913h2.105l-3.259-33.042l74.283-4.562
+			c-1.167,6.408,2.121,13.036,8.328,15.801l12.56,5.592l-6.952,16.211h4.992l8.396-18.824l-16.96-7.552
+			c-4.453-1.983-6.62-7.01-5.147-11.547l12.197-0.749l-0.001,0.023l76.382,4.855l-12.714,28.557
+			c-1.099,2.468-3.187,4.289-5.668,5.114h8.368c0.738-0.934,1.375-1.961,1.872-3.079l13.47-30.254l7.406,0.472l0,0.002
+			l158.669-30.057l-18.968,62.916l-0.037,0.122h2.091l0.037-0.122l19.094-63.337l22.68-4.295c3.993,4.205,9.279,7.166,15.215,8.248
+			v59.384h10.011v-59.383c9.145-1.665,16.745-7.798,20.451-16.051l0.041,0.521l92.312-7.201v-10.04l-89.967,7.019
+			c0.033-0.56,0.056-1.12,0.056-1.688c0-0.766-0.039-1.521-0.101-2.272l90.012-6.774v-10.04l-92.68,6.976
+			c-4.517-9.335-14.083-15.788-25.13-15.788c-1.502,0-2.978,0.123-4.417,0.353v-17.186l58.404-129.84l0.037,0.017l0.777-1.74
+			l63.008,28.194v-10.966l-58.928-26.37l58.928-131.005v-12.203l-30.552,67.92l-83.07-36.707l-0.005-0.02l-0.026,0.006l-0.024-0.011
+			l-0.008,0.019l-72.123,17.151l-1.024,2.302l72.987-17.357l82.473,36.442l-32.125,71.418l-4.29,9.614l-0.034-0.016l-37.115,82.513
+			l-18.409-6.199l-0.011,0.031l-33.12,12.396l-55.69-131.941l8.153-18.312l136.411,61.043l4.105-9.13L395.332,259.79l13.11-29.445
+			l-0.859,0.205l-0.466-1.947l2.35-0.559l2.416-5.425c3.986-8.958-0.057-19.49-9.013-23.478l-7.196-3.204l42.175-98.254
+			L438.359,97.911z M189.682,576.862L189.682,576.862l-0.576-0.247L189.682,576.862z M311.979,41.483l92.784,41.427l-42.066,98.346
+			l-10.409-4.635c-2.296-1.022-4.728-1.542-7.226-1.542c-2.945,0-5.773,0.737-8.28,2.058l-17.156-60.794l-0.154,0.043
+			l-15.378-59.417L311.979,41.483z M302.721,59.661l14.023,54.181l-32.807-17.3L302.721,59.661z M281.666,101.003l33.399,17.612
+			l17.408,61.688c-1.51,1.512-2.763,3.307-3.663,5.329l-17.056,38.309l-75.495-33.784L281.666,101.003z M340.152,312.718
+			l-0.646,1.466l-0.169,0.393l-0.004-0.002l-44.188,100.225l-25.184-12.045l43.095-102.101l0.049,0.021l3.943-9.202l-13.267-5.907
+			c-3.914-1.744-5.681-6.347-3.938-10.261l13.976-31.391l64.728,28.964l-13.921,31.269c-1.249,2.803-4.039,4.613-7.109,4.613
+			c-1.087,0-2.147-0.227-3.152-0.674l-10.265-4.57l-3.96,9.195L340.152,312.718z M273.005,465.137l-4.01,9.312l16.988,7.563
+			c2.306,1.026,4.074,2.89,4.979,5.246c0.905,2.356,0.838,4.925-0.189,7.231l-19.631,44.092l-83.617-5.963l-0.006,0.085
+			l-4.341,0.238l32.088-72.07c1.517-3.407,4.909-5.609,8.64-5.609c1.324,0,2.616,0.276,3.838,0.82l16.546,7.367l3.394-7.919
+			l20.328-48.16l25.113,12.01l-20.166,45.737L273.005,465.137z M156.363,34.927l120.875,63.741l-45.554,89.443L129.53,142.397
+			c0.667-2.312,1.031-4.75,1.031-7.273c0-8.151-3.727-15.447-9.565-20.275L156.363,34.927z M87.97,135.124
+			c0-8.983,7.308-16.291,16.29-16.291c8.982,0,16.29,7.308,16.29,16.291c0,8.982-7.308,16.29-16.29,16.29
+			C95.277,151.414,87.97,144.106,87.97,135.124z M35.529,290.63l63.49-129.731c1.694,0.344,3.446,0.526,5.24,0.526
+			c8.396,0,15.881-3.96,20.7-10.104l28.963,12.96l42.88,49.117l1.869-1.665l1.869-1.665l-35.713-40.907l142.855,63.926
+			l-16.984,38.146c-3.989,8.957,0.053,19.489,9.011,23.479l8.772,3.906l-9.984,23.654l-79.217-90.738l-1.869,1.665l-1.869,1.665
+			l80.79,92.54l-30.892,73.189L35.529,290.63z M82.775,480.811l67.005-129.988l113.711,54.386l-21.784,51.612l-11.928-5.311
+			c-1.867-0.831-3.843-1.252-5.874-1.252c-5.706,0-10.892,3.367-13.213,8.578l-29.439,66.121L82.775,480.811z M265.29,551.727
+			l-80.089-5.091l-0.006-0.1l-8.295,0.51l1.705-3.829l9.508-0.519l78.701,5.611L265.29,551.727z M273.063,552.22l-2.446-0.155
+			l1.503-3.377l4.278,0.306l0.001-0.017l174.229-33.042c0.24,0.848,0.521,1.678,0.837,2.491L273.063,552.22z M449.678,505.925
+			l-173.137,32.836l18.805-42.234c1.57-3.528,1.672-7.457,0.289-11.062c-1.384-3.605-4.089-6.455-7.616-8.025l-12.556-5.59
+			l22.18-50.307l154.978,74.122C451.021,498.792,449.993,502.258,449.678,505.925z M477.466,490.441
+			c9.862,0,17.888,8.024,17.888,17.889c0,9.863-8.025,17.888-17.888,17.888c-9.863,0-17.888-8.024-17.888-17.888
+			C459.578,498.466,467.603,490.441,477.466,490.441z M472.003,408.896l17.51,5.896l-20.718,46.061l-25.361-27.3l1.214-0.509
+			l-5.071-12.014L472.003,408.896z M440.03,434.981l1.437-0.603l26.661,28.698h-0.084v18.995c-5.093,1.833-9.501,5.108-12.733,9.331
+			l-54.396-26.016l18.421-36.783l15.548-5.817L440.03,434.981z M434.105,420.943l-16.158,6.048l-0.033-0.017l-0.018,0.036
+			l-0.022,0.008l0.008,0.02l-18.772,37.485l-99.446-47.563l45.062-102.206l5.568,2.479c2.295,1.021,4.726,1.539,7.224,1.539
+			c7.019,0,13.399-4.142,16.254-10.553l6.548-14.708L434.105,420.943z M382.619,263.733l-64.729-28.965l1.76-3.951l64.728,28.965
+			L382.619,263.733z M395.514,183.62l0.013,0.006l-8.321,19.499l11.593,5.162c3.914,1.743,5.681,6.345,3.938,10.26l-14.287,32.089
+			l-64.727-28.964l14.232-31.968c1.248-2.802,4.037-4.613,7.106-4.613c1.086,0,2.146,0.227,3.153,0.675l15.167,6.752l3.93-9.208
+			l-0.04-0.018l42.062-98.341l0.015,0.007l23.93,10.685L395.514,183.62z"/>
+	</g>
+</g>
+<g id="Ebene_2" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#FFFF4F004F00">
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M135.863,129.741"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-Black'" font-size="28.3664">
+					<p><span  fill="#FFFFFF">U</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_1_" />
+		</foreignObject>
+		
+			<text id="SVGID_1_" transform="matrix(1 0 0 1 135.8633 129.7407)" fill="#FFFFFF" font-family="'Arial-Black'" font-size="28.3664">U</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M502.61,553.699"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-Black'" font-size="29.9861">
+					<p><span  fill="#FFFFFF">U</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_2_" />
+		</foreignObject>
+		
+			<text id="SVGID_2_" transform="matrix(1 0 0 1 502.6104 553.6992)" fill="#FFFFFF" font-family="'Arial-Black'" font-size="29.9861">U</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M499.729,572.12"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-BoldMT'" font-size="12.7634">
+					<p><span>Kottbusser Tor</span></p>
+					<p><span>U8 / U1</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_3_" />
+		</foreignObject>
+		<g>
+			<text id="SVGID_3_" transform="matrix(1 0 0 1 499.7295 572.1201)"><tspan x="0" y="0" font-family="'Arial-BoldMT'" font-size="12.7634">Kottbusser Tor</tspan><tspan x="0" y="15.316" font-family="'Arial-BoldMT'" font-size="12.7634">U8 / U1</tspan></text>
+		</g>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M169.026,116.895"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-BoldMT'" font-size="12.7634">
+					<p><span>Moritzplatz</span></p>
+					<p><span>U8 </span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_4_" />
+		</foreignObject>
+		<g>
+			<text id="SVGID_4_" transform="matrix(1 0 0 1 169.0264 116.8945)"><tspan x="0" y="0" font-family="'Arial-BoldMT'" font-size="12.7634">Moritzplatz</tspan><tspan x="0" y="15.316" font-family="'Arial-BoldMT'" font-size="12.7634">U8 </tspan></text>
+		</g>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M405.149,194.539"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-BoldMT'" font-size="14.8906">
+					<p><span>Oranienplatz</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_5_" />
+		</foreignObject>
+		<text id="SVGID_5_" transform="matrix(1 0 0 1 405.1494 194.5386)" font-family="'Arial-BoldMT'" font-size="14.8906">Oranienplatz</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1.0205 0 0 1 0 0">
+					<path d="M318.981,273.796"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-Black'" font-size="13.8381" letter-spacing="-97.995">
+					<p><span  fill="#FFFFFF">BUS</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_6_" />
+		</foreignObject>
+		
+			<text id="SVGID_6_" transform="matrix(1.0205 0 0 1 318.9814 273.7964)" fill="#FFFFFF" font-family="'Arial-Black'" font-size="13.8381" letter-spacing="-0.98">BUS</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1.0205 0 0 1 0 0">
+					<path d="M72.223,89.792"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-Black'" font-size="13.8381" letter-spacing="-97.995">
+					<p><span  fill="#FFFFFF">BUS</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_7_" />
+		</foreignObject>
+		
+			<text id="SVGID_7_" transform="matrix(1.0205 0 0 1 72.2231 89.7915)" fill="#FFFFFF" font-family="'Arial-Black'" font-size="13.8381" letter-spacing="-0.98">BUS</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1.0205 0 0 1 0 0">
+					<path d="M531.705,359.95"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-Black'" font-size="13.8381" letter-spacing="-97.995">
+					<p><span  fill="#FFFFFF">BUS</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_8_" />
+		</foreignObject>
+		
+			<text id="SVGID_8_" transform="matrix(1.0205 0 0 1 531.7051 359.9502)" fill="#FFFFFF" font-family="'Arial-Black'" font-size="13.8381" letter-spacing="-0.98">BUS</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.9155 0.4024 -0.4024 0.9155 0 0">
+					<path d="M418.705,262.765"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8905">
+					<p><span>Oranienstraße</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_9_" />
+		</foreignObject>
+		
+			<text id="SVGID_9_" transform="matrix(0.9155 0.4024 -0.4024 0.9155 418.7051 262.7646)" font-family="'ArialMT'" font-size="14.8905">Oranienstraße</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.8994 0.4372 -0.4372 0.8994 0 0">
+					<path d="M190.353,360.755"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8907">
+					<p><span>Ritterstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_10_" />
+		</foreignObject>
+		
+			<text id="SVGID_10_" transform="matrix(0.8994 0.4372 -0.4372 0.8994 190.353 360.7549)" font-family="'ArialMT'" font-size="14.8907">Ritterstr.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.9155 0.4024 -0.4024 0.9155 0 0">
+					<path d="M476.14,104.287"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8905">
+					<p><span>Waldemarstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_11_" />
+		</foreignObject>
+		
+			<text id="SVGID_11_" transform="matrix(0.9155 0.4024 -0.4024 0.9155 476.1396 104.2871)" font-family="'ArialMT'" font-size="14.8905">Waldemarstr.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.3807 0.9247 -0.9247 0.3807 0 0">
+					<path d="M400.715,316.471"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>Dresdner Str.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_12_" />
+		</foreignObject>
+		
+			<text id="SVGID_12_" transform="matrix(0.3807 0.9247 -0.9247 0.3807 400.7148 316.4707)" font-family="'ArialMT'" font-size="14.8906">Dresdner Str.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.4679 -0.8838 0.8838 0.4679 0 0">
+					<path d="M251.371,189.907"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8907">
+					<p><span>Luckauer Str.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_13_" />
+		</foreignObject>
+		
+			<text id="SVGID_13_" transform="matrix(0.4679 -0.8838 0.8838 0.4679 251.3711 189.9072)" font-family="'ArialMT'" font-size="14.8907">Luckauer Str.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.8818 0.4716 -0.4716 0.8818 0 0">
+					<path d="M184.963,37.663"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>Sebastianstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_14_" />
+		</foreignObject>
+		
+			<text id="SVGID_14_" transform="matrix(0.8818 0.4716 -0.4716 0.8818 184.9634 37.6631)" font-family="'ArialMT'" font-size="14.8906">Sebastianstr.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.411 -0.9117 0.9117 0.411 0 0">
+					<path d="M35.723,257.907"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8905">
+					<p><span>Prinzenstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_15_" />
+		</foreignObject>
+		
+			<text id="SVGID_15_" transform="matrix(0.411 -0.9117 0.9117 0.411 35.7227 257.9072)" font-family="'ArialMT'" font-size="14.8905">Prinzenstr.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.4188 -0.9081 0.9081 0.4188 0 0">
+					<path d="M293.45,400.034"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>Segitzdamm</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_16_" />
+		</foreignObject>
+		
+			<text id="SVGID_16_" transform="matrix(0.4188 -0.9081 0.9081 0.4188 293.4502 400.0342)" font-family="'ArialMT'" font-size="14.8906">Segitzdamm</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M532.251,376.947"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>M29</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_17_" />
+		</foreignObject>
+		<text id="SVGID_17_" transform="matrix(1 0 0 1 532.251 376.9473)" font-family="'ArialMT'" font-size="14.8906">M29</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M319.528,290.795"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>M29</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_18_" />
+		</foreignObject>
+		<text id="SVGID_18_" transform="matrix(1 0 0 1 319.5283 290.7949)" font-family="'ArialMT'" font-size="14.8906">M29</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M72.771,106.79"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>M29</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_19_" />
+		</foreignObject>
+		<text id="SVGID_19_" transform="matrix(1 0 0 1 72.7705 106.79)" font-family="'ArialMT'" font-size="14.8906">M29</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.4073 -0.9133 0.9133 0.4073 0 0">
+					<path d="M488.582,405.225"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8907">
+					<p><span>Adalbertstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_20_" />
+		</foreignObject>
+		
+			<text id="SVGID_20_" transform="matrix(0.4073 -0.9133 0.9133 0.4073 488.582 405.2246)" font-family="'ArialMT'" font-size="14.8907">Adalbertstr.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M266.88,580.63"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'Arial-BoldMT'" font-size="14.8906">
+					<p><span>Wassertorplatz</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_21_" />
+		</foreignObject>
+		<text id="SVGID_21_" transform="matrix(1 0 0 1 266.8799 580.6299)" font-family="'Arial-BoldMT'" font-size="14.8906">Wassertorplatz</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.9987 -0.0515 0.0515 0.9987 0 0">
+					<path d="M50.474,533.233"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>Gitschiner Str.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_22_" />
+		</foreignObject>
+		
+			<text id="SVGID_22_" transform="matrix(0.9987 -0.0515 0.0515 0.9987 50.4741 533.2334)" font-family="'ArialMT'" font-size="14.8906">Gitschiner Str.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.4705 -0.8824 0.8824 0.4705 0 0">
+					<path d="M92.491,438.744"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8906">
+					<p><span>Bergfriedstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_23_" />
+		</foreignObject>
+		
+			<text id="SVGID_23_" transform="matrix(0.4705 -0.8824 0.8824 0.4705 92.4907 438.7441)" font-family="'ArialMT'" font-size="14.8906">Bergfriedstr.</text>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="1 0 0 1 0 0">
+					<path d="M110.37,280.525"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="12.7634">
+					<p><span>Oranienstr. 159</span></p>
+					<p><span>10969 Berlin-Kreuzberg</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_24_" />
+		</foreignObject>
+		<g>
+			<text id="SVGID_24_" transform="matrix(1 0 0 1 110.3701 280.5249)"><tspan x="0" y="0" font-family="'ArialMT'" font-size="12.7634">Oranienstr. 159</tspan><tspan x="0" y="15.316" font-family="'ArialMT'" font-size="12.7634">10969 Berlin-Kreuzberg</tspan></text>
+		</g>
+	</switch>
+	<switch i:objectNS="&ns_flows;" i:objectType="pointText">
+		<foreignObject requiredExtensions="&ns_flows;" x="0" y="0" width="1" height="1" overflow="visible">
+			<flowDef  xmlns="&ns_flows;">
+				<region  textMatrix="0.6616 0.7499 -0.7499 0.6616 0 0">
+					<path d="M222.437,232.793"/>
+				</region>
+				<flow  xmlns="&ns_flows;"  font-family="'ArialMT'" font-size="14.8905">
+					<p><span>Prinzessinnenstr.</span></p>
+				</flow>
+			</flowDef>
+			<x:targetRef  xlink:href="#SVGID_25_" />
+		</foreignObject>
+		
+			<text id="SVGID_25_" transform="matrix(0.6616 0.7499 -0.7499 0.6616 222.4365 232.7935)" font-family="'ArialMT'" font-size="14.8905">Prinzessinnenstr.</text>
+	</switch>
+	<g>
+		<g>
+			<polygon i:knockout="Off" points="117.473,254.412 117.792,265.548 129.193,265.649 118.562,253.257 			"/>
+			<polygon i:knockout="Off" points="125.61,238.616 117.04,239.328 117.28,247.658 			"/>
+			<path i:knockout="Off" d="M133.146,237.988l-10.81,11.467l14.316,16.26l5.058,0.043c-0.504-0.6-0.906-1.242-1.191-1.929
+				c-0.468-1.046-0.73-2.614-0.79-4.702l-0.378-13.178l5.257-0.152l0.376,13.063c0.108,3.77,1.649,5.611,4.625,5.527
+				c2.974-0.085,4.407-2.013,4.3-5.784l-0.375-13.062l5.257-0.151l0.379,13.179c0.053,1.824-0.129,3.404-0.542,4.741
+				c-0.312,0.927-0.822,1.786-1.52,2.583l7.046,0.063l-0.875-30.473L133.146,237.988z"/>
+			<path i:knockout="Off" d="M188.615,233.005l-10.229,1.222c0.908,0.846,1.657,1.874,2.229,3.102
+				c0.649,1.369,0.992,2.762,1.034,4.179c0.074,2.587-0.852,4.804-2.78,6.651c1.935,0.599,3.479,1.701,4.632,3.305
+				c1.167,1.588,1.782,3.457,1.844,5.607c0.082,2.819-0.847,5.23-2.785,7.235c-0.688,0.729-1.438,1.314-2.239,1.791l8.315,0.401
+				L188.615,233.005z"/>
+			<path i:knockout="Off" d="M175.175,245.764c0.923-0.93,1.361-2.269,1.312-4.014c-0.05-1.698-0.57-2.968-1.56-3.814
+				c-0.991-0.858-2.406-1.263-4.244-1.21l-1.917,0.055l0.302,10.491l1.705-0.048C172.798,247.164,174.265,246.678,175.175,245.764z"
+				/>
+			<path i:knockout="Off" d="M178.1,253.139c-1.167-1.012-3.216-1.473-6.144-1.391l-2.758,0.08l0.313,10.913l3.365-0.097
+				c2.46-0.07,4.254-0.604,5.379-1.604c1.186-1.078,1.755-2.42,1.708-4.024C179.92,255.458,179.298,254.166,178.1,253.139z"/>
+		</g>
+		<polygon i:knockout="Off" points="111.688,239.765 110.807,239.837 111.543,265.504 112.429,265.513 		"/>
+	</g>
+	<g>
+		<path i:knockout="Off" fill="#0085C8" d="M163.164,130.188c0,3-2.427,5.427-5.426,5.427h-20.35c-2.999,0-5.426-2.428-5.426-5.427
+			v-20.347c0-2.998,2.428-5.429,5.426-5.429h20.35c3,0,5.426,2.432,5.426,5.429V130.188z"/>
+	</g>
+	<g>
+		<path i:knockout="Off" fill="#0085C8" d="M531.47,554.172c0,3.171-2.565,5.737-5.736,5.737h-21.512
+			c-3.169,0-5.736-2.566-5.736-5.737v-21.507c0-3.171,2.567-5.741,5.736-5.741h21.512c3.171,0,5.736,2.57,5.736,5.741V554.172z"/>
+	</g>
+	<g>
+		<path i:knockout="Off" fill="#CC5E1E" d="M349.84,273.854c0,2.303-2.17,4.169-4.846,4.169h-22.216
+			c-2.676,0-4.847-1.867-4.847-4.169v-9.728c0-2.303,2.171-4.17,4.847-4.17h22.216c2.676,0,4.846,1.867,4.846,4.17V273.854z"/>
+	</g>
+	<g>
+		<path i:knockout="Off" fill="#CC5E1E" d="M103.082,89.849c0,2.303-2.171,4.17-4.846,4.17H76.02c-2.676,0-4.846-1.867-4.846-4.17
+			v-9.728c0-2.303,2.17-4.169,4.846-4.169h22.216c2.675,0,4.846,1.867,4.846,4.169V89.849z"/>
+	</g>
+	<g>
+		<path i:knockout="Off" fill="#CC5E1E" d="M562.562,360.006c0,2.306-2.17,4.171-4.846,4.171h-22.216
+			c-2.675,0-4.847-1.865-4.847-4.171v-9.726c0-2.304,2.172-4.17,4.847-4.17h22.216c2.676,0,4.846,1.866,4.846,4.17V360.006z"/>
+	</g>
+	
+		<use xlink:href="#Org._Diagramm_-_Verbinder"  width="11.389" height="35.281" id="XMLID_1_" x="-5.694" y="-17.641" i:knockout="Off" transform="matrix(-1.1408 -1.5476 -1.1738 0.8654 211.3198 217.3838)" overflow="visible"/>
+</g>
+</svg>
