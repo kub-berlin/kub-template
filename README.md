@@ -25,6 +25,11 @@ See https://docs.joomla.org/J3.x:Installing_a_template
 This template is build for a specific Joomla configuration and may behave in
 unexpected ways if you divert to far from these setting:
 
+-   home
+    -   a description/welcome text should go to the `home` position.
+    -   opening hours should go to the `opening-hours` position.
+    -   you can include the home partial in articles using the code
+        `loadpartial home`.
 -   search
     -   A simple search module should go into the `search` position.
     -   A lanternfish language switcher may also go into the `search` position.
