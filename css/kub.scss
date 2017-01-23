@@ -59,6 +59,7 @@ html {
 
 summary {
     @extend h3;
+    cursor: pointer;
 
     h3 {
         display: inline;

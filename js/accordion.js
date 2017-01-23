@@ -1,6 +1,22 @@
 window.addEventListener('load', function() {
     "use strict";
 
+    // https://mathiasbynens.be/notes/html5-details-jquery#comment-35
+    var isDetailsSupported = function() {
+        var el = document.createElement('details');
+        var root = document.body;
+        el.innerHTML = '<summary>a</summary>b';
+        el.style.display = 'block';
+        root.appendChild(el);
+
+        var height1 = el.offsetHeight;
+        el.open = true;
+        var height2 = el.offsetHeight;
+
+        root.removeChild(el);
+        return height1 != height2;
+    };
+
     // wrap sections (starting with <h3>) in <details> elements.
 
     var prependChild = function(par, child) {
@@ -20,7 +36,7 @@ window.addEventListener('load', function() {
 
     var body = document.querySelector('.accordion');
 
-    if (body) {
+    if (body && isDetailsSupported()) {
         var sections = [document.createElement('details')];
 
         // iterate backwards in order to not change the node indices
