@@ -53,3 +53,5 @@ unexpected ways if you divert to far from these setting:
         article-top}`. After that you can create a custom module with the module
         class suffix ` infobox` (mind the leading space!) and assign it to the
         `article-top` position on this page.
+-   PGP key
+    -   The public PGP key is expected at `images/kub-pubkey.asc`.

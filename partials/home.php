@@ -23,7 +23,7 @@
             <?php echo JText::_("TPL_KUB_TELEPHONE"); ?>: <a href="tel:+49-30-614-94-00" property="telephone">030 / 614 94 00</a><br />
             <?php echo JText::_("TPL_KUB_FAX"); ?>: <span property="faxNumber">030 / 615 45 34</span><br />
             <?php echo JText::_("TPL_KUB_EMAIL"); ?>:  <a property="email" href="mailto:kontakt@kub-berlin.org">kontakt@kub-berlin.org</a><br />
-            <a href="http://www.kub-berlin.org/images/stories/kub-pubkey.asc">Public PGP-Key</a>
+            <a href="<?php e($doc->baseurl); ?>/images/kub-pubkey.asc" target="_blank">Public PGP-Key</a>
         </p>
         <p>
             <?php echo JText::_("TPL_KUB_SUBWAY"); ?>: U8 Mortizplatz<br />
