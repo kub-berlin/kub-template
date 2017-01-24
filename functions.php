@@ -46,7 +46,10 @@ function kub_get_submenu() {
 
     if (!$item) return array();
 
-    return $menu->getItems('parent_id', $item->id);
+    $items = $menu->getItems('parent_id', $item->id);
+    return array_filter($items, function($item) {
+        return $item->params->get('menu_show');
+    });
 }
 
 function kub_opengraph($doc) {
