@@ -2,7 +2,10 @@
     <div id="header-container">
         <header id="header">
             <a href="<?php e(jfGetHome()); ?>" class="brand-link" rel="home">
-                <img alt="<?php e(JFactory::getConfig()->get('sitename')); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" />
+                <picture>
+                    <source srcset="<?php e($this->baseurl); ?>/templates/kub/images/logo.svg" type="image/svg+xml" />
+                    <img alt="<?php e(JFactory::getConfig()->get('sitename')); ?>" src="<?php e($this->baseurl); ?>/templates/kub/images/logo.png" />
+                </picture>
             </a>
             <?php kub_module('header-bottom'); ?>
         </header>
