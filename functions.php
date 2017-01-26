@@ -48,7 +48,7 @@ function kub_get_submenu() {
 
     $items = $menu->getItems('parent_id', $item->id);
     return array_filter($items, function($item) {
-        return $item->params->get('menu_show');
+        return $item->params->get('menu_show', true);
     });
 }
 
