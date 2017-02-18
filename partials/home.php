@@ -1,11 +1,11 @@
-<div vocab="http://schema.org/" typeof="NGO" resource="https://kub-berlin.org/#kub">
+<div vocab="http://schema.org/" typeof="NGO Place" resource="https://kub-berlin.org/#kub">
     <?php if ($doc->countModules( 'home' )) : ?>
     <div class="homeRow-about" property="description">
         <jdoc:include type="modules" name="home" />
     </div>
     <?php endif; ?>
     <div class="homeRow-map" property="location" typeof="place">
-        <a href="https://www.openstreetmap.org/node/874357616" property="hasMap" rel="external" target="_blank">
+        <a href="https://www.openstreetmap.org/node/874357616" property="hasMap" target="_blank">
             <img src="<?php e($doc->baseurl); ?>/templates/kub/images/stadtplan.svg" alt="Stadtplan" />
         </a>
         <div property="geo" typeof="GeoCoordinates">
@@ -29,7 +29,7 @@
             <?php echo JText::_("TPL_KUB_SUBWAY"); ?>: <bdi>U8 Mortizplatz</bdi><br />
             <?php echo JText::_("TPL_KUB_BUS"); ?>: <bdi>M29 Moritzplatz</bdi>
         </p>
-        <div property="openingHours" content="Mo,Tu,Th,Fr 09:00-19:00,We 14:00-19:00">
+        <div property="openingHoursSpecification" content="Mo,Tu,Th,Fr 09:00-19:00,We 14:00-19:00">
             <jdoc:include type="modules" name="opening-hours" />
         </div>
     </address>
