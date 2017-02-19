@@ -23,18 +23,25 @@ function kub_module($name, $tag = 'div') {
     }
 }
 
+function kub_include_partial($html, $name) {
+    $doc = JFactory::getDocument();
+    $search = "{loadpartial $name}";
+    if (strpos($html, $search)) {
+        ob_start();
+        include("partials/$name.php");
+        $partial = ob_get_clean();
+
+        $html = str_replace($search, $partial, $html);
+    }
+    return $html;
+}
+
 function kub_component() {
     $doc = JFactory::getDocument();
     $html = $doc->getBuffer('component', null, array());
 
-    $search = '{loadpartial home}';
-    if (strpos($html, $search)) {
-        ob_start();
-        include('partials/home.php');
-        $home = ob_get_clean();
-
-        $html = str_replace($search, $home, $html);
-    }
+    $html = kub_include_partial($html, 'home');
+    $html = kub_include_partial($html, 'tandem');
 
     echo $html;
 }

@@ -55,3 +55,5 @@ unexpected ways if you divert to far from these setting:
         `article-top` position on this page.
 -   PGP key
     -   The public PGP key is expected at `images/kub-pubkey.asc`.
+-   Sprachtandem: You can include a localized iframe using the code
+    `{includepartial tandem}`.
