@@ -1,4 +1,4 @@
-(unfinished) Joomla 3.x template for [KuB](http://kub-berlin.org).
+Joomla 3.x template for [KuB](http://kub-berlin.org).
 
 # Installation
 
