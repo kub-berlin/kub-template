@@ -26,7 +26,7 @@
             <a href="<?php e($doc->baseurl); ?>/images/kub-pubkey.asc" target="_blank"><bdi>Public PGP-Key</bdi></a>
         </p>
         <p>
-            <?php echo JText::_("TPL_KUB_SUBWAY"); ?>: <bdi>U8 Mortizplatz</bdi><br />
+            <?php echo JText::_("TPL_KUB_SUBWAY"); ?>: <bdi>U8 Moritzplatz</bdi><br />
             <?php echo JText::_("TPL_KUB_BUS"); ?>: <bdi>M29 Moritzplatz</bdi>
         </p>
         <div property="openingHoursSpecification" content="Mo,Tu,Th,Fr 09:00-19:00,We 14:00-19:00">
