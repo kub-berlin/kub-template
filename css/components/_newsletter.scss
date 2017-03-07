@@ -1,0 +1,13 @@
+.alert .close {
+    display: none;
+}
+
+// jNews footer
+.footer[align="center"] > .footer {
+    display: none;
+}
+
+// table with links to additional functionality
+[action*="jnews"][name="mosForm"] {
+    display: none;
+}
