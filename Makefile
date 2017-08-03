@@ -9,7 +9,6 @@ css/kub-ltr.css: css/kub.scss css/_*.scss css/components/_*.scss bower_component
 bower_components:
 	bower install xi/sass-planifolia
 	bower install xi/mfbs
-	bower install normalize-css
 
 clean:
 	rm -f css/kub-rtl.css
