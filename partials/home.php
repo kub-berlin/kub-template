@@ -29,7 +29,7 @@
             <?php echo JText::_("TPL_KUB_SUBWAY"); ?>: <bdi>U8 Moritzplatz</bdi><br />
             <?php echo JText::_("TPL_KUB_BUS"); ?>: <bdi>M29 Moritzplatz</bdi>
         </p>
-        <div property="openingHoursSpecification" content="Mo,Th,Fr 09:00-17:00,Tu 09:00-19:00,We 14:00-17:00">
+        <div property="openingHoursSpecification" content="Mo,Th,Fr 09:00-17:00,Tu 09:00-19:00,We 13:00-17:00">
             <jdoc:include type="modules" name="opening-hours" />
         </div>
     </address>
