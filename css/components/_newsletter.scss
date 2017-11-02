@@ -1,3 +1,16 @@
 .alert .close {
     display: none;
 }
+
+.jNewsMod form {
+    display: flex;
+
+    .inputbox {
+        flex: 1;
+    }
+
+    .button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}
