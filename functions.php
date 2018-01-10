@@ -12,12 +12,12 @@ function jdocIncludeModules($position) {
     }
 }
 
-function kub_module($name, $tag = 'div') {
+function kub_module($name, $tag = 'div', $attrs = '') {
     ob_start();
     jdocIncludeModules($name);
     $modules = ob_get_clean();
     if ($modules) {
-        echo "<$tag id=\"$name\">";
+        echo "<$tag id=\"$name\" $attrs>";
         echo $modules;
         echo "</$tag>";
     }

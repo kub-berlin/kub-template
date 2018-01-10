@@ -10,7 +10,7 @@
             <?php kub_module('header-bottom'); ?>
         </header>
         <nav id="nav">
-            <?php kub_module('search'); ?>
+            <?php kub_module('search', 'div', 'role="search"'); ?>
             <jdoc:include type="modules" name="navigation" />
         </nav>
     </div>
