@@ -15,7 +15,6 @@
         @media screen and (min-width: $breakpoint) {
             width: auto;
             display: inline-block;
-            vertical-align: middle;
             box-sizing: content-box;
             height: 1.4em;
         }
@@ -24,6 +23,7 @@
     input {
         line-height: 1.4;
         margin-bottom: $spacer / 2;
+        vertical-align: top;
     }
 }
 
