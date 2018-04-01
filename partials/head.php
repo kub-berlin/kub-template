@@ -8,20 +8,21 @@ $dir = $doc->direction;
 
 include_once "$templatePath/functions.php";
 
-function setKubHead() {
+function setKubHead()
+{
     $doc = JFactory::getDocument();
 
     $templateUrl = "{$doc->baseurl}/templates/{$doc->template}";
     $dir = $doc->direction;
 
     // clear unneccessary scripts
-    $doc->_script = Array();
-    $doc->_scripts = Array();
-    $doc->_style = Array();
-    $doc->_styleSheets = Array();
+    $doc->_script = array();
+    $doc->_scripts = array();
+    $doc->_style = array();
+    $doc->_styleSheets = array();
 
     $doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
-    $doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
+    $doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', true);
     $doc->addStyleSheet("$templateUrl/css/kub-$dir.css");
     $doc->addScript("$templateUrl/js/nav.js");
     $doc->addScript("$templateUrl/js/table.js");

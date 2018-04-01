@@ -1,18 +1,21 @@
 <?php
 defined('_JEXEC') or die;
 
-function e($string) {
+function e($string)
+{
     echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 }
 
-function jdocIncludeModules($position) {
+function jdocIncludeModules($position)
+{
     $modules = JModuleHelper::getModules($position);
     foreach ($modules as $module) {
         echo JModuleHelper::renderModule($module);
     }
 }
 
-function kub_module($name, $tag = 'div', $attrs = '') {
+function kub_module($name, $tag = 'div', $attrs = '')
+{
     ob_start();
     jdocIncludeModules($name);
     $modules = ob_get_clean();
@@ -23,7 +26,8 @@ function kub_module($name, $tag = 'div', $attrs = '') {
     }
 }
 
-function kub_include_partial($html, $name) {
+function kub_include_partial($html, $name)
+{
     $doc = JFactory::getDocument();
     $search = "{loadpartial $name}";
     if (strpos($html, $search)) {
@@ -36,7 +40,8 @@ function kub_include_partial($html, $name) {
     return $html;
 }
 
-function kub_component() {
+function kub_component()
+{
     $doc = JFactory::getDocument();
     $html = $doc->getBuffer('component', null, array());
 
@@ -46,20 +51,24 @@ function kub_component() {
     echo $html;
 }
 
-function kub_get_submenu() {
+function kub_get_submenu()
+{
     $app = JFactory::getApplication();
     $menu = $app->getMenu();
     $item = $menu->getActive();
 
-    if (!$item) return array();
+    if (!$item) {
+        return array();
+    }
 
     $items = $menu->getItems('parent_id', $item->id);
-    return array_filter($items, function($item) {
+    return array_filter($items, function ($item) {
         return $item->params->get('menu_show', true);
     });
 }
 
-function kub_opengraph($doc) {
+function kub_opengraph($doc)
+{
     $app = JFactory::getApplication();
     $article_title = JTable::getInstance('content');
     $article_title->load(JRequest::getInt('id'));
@@ -74,7 +83,9 @@ function kub_opengraph($doc) {
 
     $doc->addCustomTag('<meta property="og:title" content="'.htmlspecialchars($title).'"/>');
     $doc->addCustomTag('<meta property="og:site_name" content="'.htmlspecialchars($siteName).'"/>');
-    if ($desc) $doc->addCustomTag('<meta property="og:description" content="'.htmlspecialchars($desc).'"/>');
+    if ($desc) {
+        $doc->addCustomTag('<meta property="og:description" content="'.htmlspecialchars($desc).'"/>');
+    }
 
     preg_match('/src=[\\"\']([-0-9A-Za-z\/_]*.(jpg|png|gif|jpeg))/i', $article_title->fulltext, $images);
     if (array_key_exists(1, $images)) {
@@ -85,7 +96,8 @@ function kub_opengraph($doc) {
     }
 }
 
-function jfGetCurrentLanguage() {
+function jfGetCurrentLanguage()
+{
     $jfManager = JoomFishManager::getInstance();
     $curLangSEF = JFactory::getLanguage()->getTag();
 
@@ -96,7 +108,8 @@ function jfGetCurrentLanguage() {
     }
 }
 
-function jfGetOtherLanguages() {
+function jfGetOtherLanguages()
+{
     // inspired by modules/mod_jflanguageselection
     $jfManager = JoomFishManager::getInstance();
     $jfrouter = JFRoute::getInstance();
@@ -114,7 +127,7 @@ function jfGetOtherLanguages() {
     return $languages;
 }
 
-function jfGetHome() {
+function jfGetHome()
+{
     return JURI::base().jfGetCurrentLanguage()->getLanguageCode();
 }
-?>

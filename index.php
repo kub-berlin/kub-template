@@ -18,7 +18,7 @@
     <?php kub_module('top'); ?>
 
     <div id="main-container">
-        <?php if ($this->countModules( 'home' )) : ?>
+        <?php if ($this->countModules('home')) : ?>
             <main id="main">
                 <jdoc:include type="message" />
                 <div class="homeRow">

@@ -1,5 +1,5 @@
 <div vocab="http://schema.org/" typeof="NGO Place" resource="https://kub-berlin.org/#kub">
-    <?php if ($doc->countModules( 'home' )) : ?>
+    <?php if ($doc->countModules('home')) : ?>
     <div class="homeRow-about" property="description">
         <jdoc:include type="modules" name="home" />
     </div>

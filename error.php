@@ -16,12 +16,12 @@ $dir = $doc->direction;
 include_once "$templatePath/functions.php";
 
 // clear unneccessary scripts
-$doc->_script = Array();
-$doc->_scripts = Array();
+$doc->_script = array();
+$doc->_scripts = array();
 
 $doc->setTitle($this->error->getCode() . ' - ' . $this->error->getMessage());
 $doc->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
-$doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', True);
+$doc->setMetaData('X-UA-Compatible', 'IE=edge,chrome=1', true);
 $doc->addStyleSheet("$templateUrl/bower_components/normalize-css/normalize.css");
 $doc->addStyleSheet("$templateUrl/css/kub-$dir.css");
 $doc->addScript("$templateUrl/js/nav.js");
