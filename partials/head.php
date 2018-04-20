@@ -44,7 +44,7 @@ $app->registerEvent('onBeforeCompileHead', 'setKubHead');
     prefix="s: http://schema.org/ og: http://ogp.me/ns#">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src *; frame-src 'self' https://www.youtube-nocookie.com/">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'">
     <jdoc:include type="head" />
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
