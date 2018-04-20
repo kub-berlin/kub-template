@@ -1,11 +1,7 @@
-.alert .close {
-    display: none;
-}
-
-.jNewsMod form {
+.partial--newsletter-subscribe form {
     display: flex;
 
-    .inputbox {
+    input[type="email"] {
         flex: 1;
     }
 

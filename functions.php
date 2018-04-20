@@ -47,6 +47,7 @@ function kub_component()
 
     $html = kub_include_partial($html, 'home');
     $html = kub_include_partial($html, 'tandem');
+    $html = kub_include_partial($html, 'newsletter-subscribe');
 
     echo $html;
 }
