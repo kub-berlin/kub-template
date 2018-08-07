@@ -8,7 +8,7 @@ See https://docs.joomla.org/J3.x:Installing_a_template
 
 1.  Install requirements
 
-        npm install -g node-sass
+        apt install sassc npm
 
 2.  Run `make`
 
