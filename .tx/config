@@ -1,0 +1,13 @@
+[main]
+host = https://www.transifex.com
+
+[webseite-2.template]
+source_file = language/de-DE/de-DE.tpl_kub.ini
+source_lang = de
+type = INI
+file_filter = language/<lang>/<lang>.tpl_kub.ini
+trans.ar = language/ar-AA/ar-AA.tpl_kub.ini
+trans.en = language/en-GB/en-GB.tpl_kub.ini
+trans.es = language/es-ES/es-ES.tpl_kub.ini
+trans.fa = language/fa-IR/fa-IR.tpl_kub.ini
+trans.fr = language/fr-FR/fr-FR.tpl_kub.ini
