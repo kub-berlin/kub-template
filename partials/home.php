@@ -20,14 +20,14 @@
             <bdi><span property="postalCode">10969</span> <span property="addressLocality">Berlin-Kreuzberg</span></bdi>
         </p>
         <p>
-            <?php echo JText::_("TPL_KUB_TELEPHONE"); ?>: <a href="tel:+49-30-614-94-00" property="telephone"><bdi>030 / 614 94 00</bdi></a><br />
-            <?php echo JText::_("TPL_KUB_FAX"); ?>: <bdi property="faxNumber">030 / 615 45 34</bdi><br />
-            <?php echo JText::_("TPL_KUB_EMAIL"); ?>:  <a property="email" href="mailto:kontakt@kub-berlin.org">kontakt@kub-berlin.org</a><br />
+            <?php e(JText::_('TPL_KUB_TELEPHONE')); ?>: <a href="tel:+49-30-614-94-00" property="telephone"><bdi>030 / 614 94 00</bdi></a><br />
+            <?php e(JText::_('TPL_KUB_FAX')); ?>: <bdi property="faxNumber">030 / 615 45 34</bdi><br />
+            <?php e(JText::_('TPL_KUB_EMAIL')); ?>:  <a property="email" href="mailto:kontakt@kub-berlin.org">kontakt@kub-berlin.org</a><br />
             <a href="<?php e($doc->baseurl); ?>/images/kub-pubkey.asc" target="_blank"><bdi>Public PGP-Key</bdi></a>
         </p>
         <p>
-            <?php echo JText::_("TPL_KUB_SUBWAY"); ?>: <bdi>U8 Moritzplatz</bdi><br />
-            <?php echo JText::_("TPL_KUB_BUS"); ?>: <bdi>M29 Moritzplatz</bdi>
+            <?php e(JText::_('TPL_KUB_SUBWAY')); ?>: <bdi>U8 Moritzplatz</bdi><br />
+            <?php e(JText::_('TPL_KUB_BUS')); ?>: <bdi>M29 Moritzplatz</bdi>
         </p>
         <div property="openingHoursSpecification" content="Mo,Tu,Th,Fr 09:00-17:00">
             <jdoc:include type="modules" name="opening-hours" />

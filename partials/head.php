@@ -54,4 +54,4 @@ $app->registerEvent('onBeforeCompileHead', 'setKubHead');
 <?php endforeach ?>
 </head>
 <body>
-    <a href="#main" tabindex="0" class="accessibility-aid">Skip to content</a>
+    <a href="#main" tabindex="0" class="accessibility-aid"><?php e(JText::_('TPL_KUB_SKIP')) ?></a>
