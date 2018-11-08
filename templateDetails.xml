@@ -11,9 +11,14 @@
     <description>Joomla Template for the KuB Homepage</description>
     <files>
         <filename>index.php</filename>
+        <filename>error.php</filename>
+        <filename>functions.php</filename>
         <filename>templateDetails.xml</filename>
+        <folder>partials</folder>
+        <folder>html</folder>
         <folder>images</folder>
         <folder>css</folder>
+        <folder>js</folder>
     </files>
     <languages>
         <language tag="ar-AA">ar-AA.tpl_kub.ini</language>
