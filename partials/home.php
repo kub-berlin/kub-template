@@ -6,7 +6,7 @@
     <?php endif; ?>
     <div class="homeRow-map" property="location" typeof="place">
         <a href="https://www.openstreetmap.org/node/874357616" property="hasMap" target="_blank">
-            <img src="<?php e($doc->baseurl); ?>/templates/kub/images/stadtplan.svg" alt="Stadtplan" />
+            <img src="<?php e($doc->baseurl); ?>/templates/kub/images/stadtplan.svg" alt="<?php e(JText::_('TPL_KUB_MAP')); ?>" />
         </a>
         <div property="geo" typeof="GeoCoordinates">
             <meta property="latitude" content="52.5026297" />
