@@ -58,6 +58,10 @@ html {
     columns: 2;
 }
 
+.button--block {
+    display: block;
+}
+
 summary {
     @extend h3;
     cursor: pointer;
