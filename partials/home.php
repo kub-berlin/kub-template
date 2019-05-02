@@ -2,6 +2,7 @@
     <?php if ($doc->countModules('home')) : ?>
     <div class="homeRow-about" property="description">
         <jdoc:include type="modules" name="home" />
+        <a class="button button--block" href="https://www.betterplace.org/de/projects/20142-fluchtlinge-und-migranten-unterstutzen-und-beraten-spende-fur-die-kub"><?php e(JText::_('TPL_KUB_DONATE')); ?></a>
     </div>
     <?php endif; ?>
     <div class="homeRow-map" property="location" typeof="place">
