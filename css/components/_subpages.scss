@@ -4,17 +4,24 @@
         padding: 0;
         list-style: none;
 
+        display: grid;
+        grid-gap: $spacer;
+        grid-template-columns: 1fr;
+
         &::after {
             content: "";
             display: table;
             clear: both;
+        }
+
+        @media (min-width: $breakpoint) {
+            grid-template-columns: 1fr 1fr;
         }
     }
 
     .subpage {
         display: table;
         width: 100%;
-        margin-bottom: $spacer;
         position: relative;
 
         a::after {
@@ -42,8 +49,6 @@
         @media (min-width: $breakpoint) {
             margin-top: -$spacer;
 
-            @include grid-same-width(2, ('gutter': $spacer));
-
             &:nth-child(4n+3) a::after {
                 bottom: 0;
                 top: auto;
@@ -69,7 +74,6 @@
             display: table-cell;
             vertical-align: middle;
             height: 8em;
-            margin-bottom: 2 * $spacer;
             font-weight: bold;
             font-size: 110%;
 

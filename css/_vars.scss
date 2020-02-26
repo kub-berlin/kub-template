@@ -24,7 +24,7 @@ $planifolia-contrast-light-default: $color-bg;
 $breakpoint: 50em;
 $padding: 0.5rem;
 $indentation: 1.5rem;
-@include grid-set('gutter', 3rem);
+$gutter: 3rem;
 
 @each $color in (
     $color-bg,

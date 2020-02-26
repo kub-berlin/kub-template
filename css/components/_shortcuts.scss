@@ -4,8 +4,11 @@
     margin: 0;
     padding: 0;
 
-    @include clearfix;
     text-align: center;
+
+    display: grid;
+    grid-gap: $spacer;
+    grid-template-columns: repeat(2, 1fr);
 
     a {
         display: block;
@@ -18,20 +21,11 @@
         }
     }
 
-    li {
-        margin-bottom: $spacer;
-        @include grid-same-width(2, ('gutter': 4%));
-    }
-
     @media (min-width: (200px * 2)) {
-        li {
-            @include grid-same-width(3, ('gutter': 4%));
-        }
+        grid-template-columns: repeat(3, 1fr);
     }
 
     @media print, (min-width: $breakpoint) {
-        li {
-            @include grid-same-width(6, ('gutter': 4%));
-        }
+        grid-template-columns: repeat(6, 1fr);
     }
 }
